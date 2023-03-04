@@ -1,3 +1,14 @@
-ac{
-     color:rgba(0, 0, 0, 0.46)
+#svg-div {
+    animation: fadeUp 3s;
+}
+
+@keyframes fadeUp {
+    0% {
+        /* transform: translateY(300px); */
+        opacity: 0;
+    }
+    100% {
+        /* transform: translateY(0); */
+        opacity: 1;
+    }
 }
