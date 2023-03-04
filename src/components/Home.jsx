@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaClock } from 'react-icons/fa'
 const Home = () => {
-     const targetDate = new Date("March 31, 2023").getTime(); // set the target date
+     const targetDate = new Date("March 31, 2023").getTime();
      const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
      useEffect(() => {
@@ -26,13 +26,13 @@ const Home = () => {
      return (
           <>
                <div className="bg-home">
-                    <div className="bg-home min-h-screen bg-[#f8f7ff] bg-cover px-8">
+                    <div className="bg-home min-h-screen bg-[#f8f7ff] bg-cover md:px-16">
                          <nav className="flex justify-end pt-4">
                               <div className="flex items-center space-x-2 justify-center text-[#22202D] font-poppy">
-                                   <div className="text-2xl">
+                                   <div className="text-xl md:text-2xl">
                                         <FaClock />
                                    </div>
-                                   <h1 className=" text-2xl font-bold">{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}</h1>
+                                   <h1 className="text-xl md:text-2xl font-bold">{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}</h1>
                               </div>
                          </nav>
                          <div className="flex flex-col items-center justify-center h-[90vh]">
@@ -67,9 +67,9 @@ const Home = () => {
                          </div>
                     </div>
                </div>
-               <div className="bg-[#f8f7ff] flex flex-col items-center justify-center py-10">
-                    <h2 className="font-poppy text-2xl">The countdown cometh.</h2>
-                    <h1 className="font-poppy font-extrabold text-8xl py-4">{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}</h1>
+               <div className="bg-[#f8f7ff] flex flex-col items-center justify-center">
+                    <h2 className="font-poppy text-xl md:text-2xl text-center">The countdown cometh.</h2>
+                    <h1 className="font-poppy font-black text-4xl md:text-8xl py-4">{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}</h1>
                     <a
                          className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
                          href="home"
