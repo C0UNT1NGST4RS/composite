@@ -1,5 +1,15 @@
 import EventsList from "./EventsList"
+import { useState } from "react";
+import { Link } from "react-scroll";
 const Events = () => {
+     const [selectedComponent, setSelectedComponent] = useState(null);
+     const [show, setShow] = useState(false);
+
+
+     const handleClick = (componentName) => {
+          setShow(true)
+          setSelectedComponent(componentName);
+     };
      return (
           <>
                <div className="bg-[#f8f7ff] px-16 py-8 flex flex-col items-center justify-center">
@@ -10,18 +20,45 @@ const Events = () => {
                          {
                               EventsList.map((items, key) => {
                                    return (
-                                        <div key={key} className={`${items.bgImg} bg-cover w-[16rem] h-[23rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg m-4`}>
+                                        <Link smooth={true} to={items.path} onClick={() => handleClick(items.path)} key={key} className={`${items.bgImg} bg-cover w-[16rem] h-[23rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg m-4`}>
                                              <div className="px-4 pb-4">
-                                                  <h1 className="text-white font-poppy font-semibold text-2xl">{items.name}</h1>
-                                                  <h1 className="text-white font-poppy text-lg">{items.event}</h1>
-                                                  <h1 className="text-white font-poppy text-md">{items.contact}</h1>
-                                                  <h1 className="text-white font-poppy text-md"><a href={items.email}>{items.email}</a></h1>
+                                                  <h1 className="text-white font-poppy font-semibold text-2xl text-left">{items.name}</h1>
+                                                  <h1 className="text-white font-poppy text-lg text-left">{items.event}</h1>
                                              </div>
-                                        </div>
+                                        </Link>
+
                                    )
                               })
                          }
                     </div>
+                    <div id="web">
+                         {selectedComponent == "web" && show == true ?
+                              <div onClick={() => { setShow(false) }} className="p-12 ">
+                                   <div className="font-poppy mb-2">
+                                        <h1 className="text-3xl font-bold">Web Odyssey</h1>
+                                        <h1 className="text-md ">Event Head Name, 92347249273</h1>
+                                   </div>
+                                   <p className="text-md font-poppy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p>
+                                   <h1 className="text-xl font-poppy py-3">Rules to be followed:</h1>
+                                   <ul className="mb-8 font-poppy">
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                   </ul>
+                                   <a
+                                        className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
+                                        href="home"
+                                   >
+                                        Register Now
+                                   </a>
+                              </div>
+                              : ("")
+                         }
+                    </div>
+
                </div>
           </>
      )

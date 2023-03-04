@@ -1,5 +1,6 @@
 import './App.css'
 import Events from './components/Events'
+import Footer from './components/Footer'
 import Heads from './components/Heads'
 import Home from './components/Home'
 
@@ -9,8 +10,9 @@ function App() {
     <div className="">
       <Home />
       {/* <About /> */}
-      <Heads />
       <Events />
+      <Heads />
+      <Footer />
     </div>
   )
 }
