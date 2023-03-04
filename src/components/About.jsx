@@ -3,7 +3,7 @@ const About = () => {
      return (
           <div className="bg-[#f8f7ff] px-2 py-8 md:px-16 md:py-24">
                <div className="bg-about bg-cover mb-8">
-                    <h1 className="text-center font-poppy text-3xl md:text-5xl text-white font-bold tracking-widest py-28">ABOUT THE FEST</h1>
+                    <h1 className="text-center font-poppy text-3xl md:text-4xl text-white font-bold tracking-widest py-20">ABOUT THE FEST</h1>
                </div>
                <div>
                     <p className="text-justify font-poppy leading-9 text-xl">
