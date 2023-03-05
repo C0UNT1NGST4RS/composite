@@ -7,19 +7,20 @@ const EventHeads = [
         email: "dummymail@gmail.com",
     },
     {
-        bgImg: "bg-royal",
-        name: "Delbin George",
-        event: "Web Designing",
-        contact: "9529395930",
-        email: "dummymail@gmail.com",
-    },
-    {
-        bgImg: "bg-neha",
+        bgImg: "bg-ashwin",
         name: "Ashwing KV",
         event: "Coding",
         contact: "9529395930",
         email: "dummymail@gmail.com",
     },
+    {
+        bgImg: "bg-delbin",
+        name: "Delbin George",
+        event: "Web Designing",
+        contact: "9529395930",
+        email: "dummymail@gmail.com",
+    },
+
     {
         bgImg: "bg-siril",
         name: "Ashwing KV",

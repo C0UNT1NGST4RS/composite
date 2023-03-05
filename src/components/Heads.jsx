@@ -12,7 +12,7 @@ const Heads = () => {
                                    <h1 className="text-white font-poppy font-semibold text-4xl">Royal Praveen</h1>
                                    <h1 className="text-white font-poppy text-lg">Staff Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
-                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">imdelbingeorge@gmail.com</a></h1>
+                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">royal.dsouza@gmail.com</a></h1>
                               </div>
                          </div>
                          <div className="m-4 bg-siril bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg">

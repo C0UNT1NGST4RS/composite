@@ -12,9 +12,12 @@ const Events = () => {
      };
      return (
           <>
-               <div className="bg-[#f8f7ff] px-16 py-8 flex flex-col items-center justify-center">
+               <div className="bg-[#f8f7ff] px-16 pt-24 flex flex-col items-center justify-center">
                     <div>
-                         <h1 className="text-center font-poppy text-3xl pb-8 md:text-5xl font-black md:py-8">EVENTS WE CONDUCT</h1>
+                         {/* <h1 className="text-center font-poppy text-3xl pb-8 md:text-5xl font-black md:py-8"> */}
+                         <h1 class="text-center mb-4 text-3xl font-poppy-bold tracking-widest font-extrabold text-gray-900 md:text-5xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400"> EVENTS </span> WE CONDUCT</h1>
+
+                         {/* </h1> */}
                     </div>
                     <div className="flex flex-wrap items-center justify-center">
                          {

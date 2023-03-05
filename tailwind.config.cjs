@@ -12,6 +12,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 poppy: ["Poppins", "sans-serif"],
+                "poppy-bold": ["Poppins", "sans-serif"],
                 queen: ["Quinland", "sans-serif"],
             },
             backgroundImage: {
@@ -19,6 +20,8 @@ module.exports = {
                 about: "linear-gradient(to bottom,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.70)),url(../src/media/images/SACAdmin.jpg)",
                 royal: "linear-gradient(to bottom,rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url(http://www.staloysius.edu.in/storage/files/faculty-images/UG-ComputerScience/Mr-Royal-Praveen-DSouza.jpg)",
                 siril: "linear-gradient(to bottom,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(../src/media/images/SirilJoseph.jpg)",
+                delbin: "linear-gradient(to bottom,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(../src/media/images/DelbinGeorge.jpg)",
+                ashwin: "linear-gradient(to bottom,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(../src/media/images/AshwinKV.jpeg)",
                 neha: "linear-gradient(to bottom,rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8UG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60)",
                 web: "linear-gradient(to bottom,rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)",
                 code: "linear-gradient(to bottom,rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(https://wallpapers.com/images/featured/avfu043y2kv52wha.jpg)",
