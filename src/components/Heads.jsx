@@ -84,7 +84,7 @@ const Heads = () => {
                                                   <h1 className="text-white font-poppy font-semibold text-2xl">{items.name}</h1>
                                                   <h1 className="text-white font-poppy text-lg">{items.event}</h1>
                                                   <h1 className="text-white font-poppy text-md">{items.contact}</h1>
-                                                  <h1 className="text-white font-poppy text-[0.8rem]"><a href={items.email}>{items.email}</a></h1>
+                                                  <h1 className="text-white font-poppy text-[0.8rem]"><a href="mailto:`${items.email}`">{items.email}</a></h1>
                                              </div>
                                         </Fade>
                                    )
