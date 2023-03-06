@@ -51,7 +51,7 @@ const Heads = () => {
                          <h1 class="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl">PROGRAM <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">DRAFTING HEADS</span></h1>
                     </div>
                     <div className="flex items-center justify-center flex-wrap">
-                         <Fade delay={15} className="m-4 bg-neha bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
+                         <Fade delay={15} className="m-4 bg-siril bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
                               <div className="px-4 pb-4">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Siril Joseph</h1>
@@ -63,7 +63,7 @@ const Heads = () => {
                          <Fade delay={15} className="m-4 bg-neha bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
                               <div className="px-4 pb-4">
-                                   <h1 className="text-white font-poppy font-semibold text-3xl">Ms Maya</h1>
+                                   <h1 className="text-white font-poppy font-semibold text-3xl">Ms Maya V</h1>
                                    <h1 className="text-white font-poppy text-lg">Program Drafting Head</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">imdelbingeorge@gmail.com</a></h1>

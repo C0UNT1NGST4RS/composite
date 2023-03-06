@@ -25,7 +25,7 @@ const Home = () => {
 
      return (
           <>
-               <div className="bg-home bg-[#f8f7ff] bg-cover md:px-16">
+               <div className="bg-home bg-[#f8f7ff] md:h-[100vh] bg-cover md:px-16">
                     <div className="flex flex-col items-center justify-center h-[60vh] md:h-[70vh] sm:py-12">
                          {/* <svg
                               id="svg-div"

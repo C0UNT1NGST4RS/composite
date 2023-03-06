@@ -7,7 +7,7 @@ const Events = () => {
 
      return (
           <>
-               <div className="bg-[#f8f7ff] pt-6 md:px-16 md:pt-12 flex flex-col items-center justify-center">
+               <div className="bg-[#f8f7ff] pt-6 md:px-16 md:pt-0 flex flex-col items-center justify-center">
                     <div>
                          <h1 id="svg-div" className="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400"> EVENTS </span> WE CONDUCT</h1>
                     </div>
