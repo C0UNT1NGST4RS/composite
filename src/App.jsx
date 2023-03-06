@@ -7,7 +7,7 @@ import Home from './components/Home'
 function App() {
 
   return (
-    <div className="">
+    <div className="bg-[#f8f7ff]">
       <Home />
       {/* <About /> */}
       <Events />

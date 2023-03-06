@@ -4,7 +4,7 @@ const Heads = () => {
           <>
                <div className="bg-[#f8f7ff] md:px-16 md:py-8">
                     <div>
-                         <h1 className="text-center font-poppy text-3xl pb-8 md:text-5xl font-black md:py-8">HEADS OF COMPOSITE</h1>
+                         <h1 class="text-center mb-4 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl">HEADS OF <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">COMPOSITE'23</span></h1>
                     </div>
                     <div className="flex items-center justify-evenly flex-wrap">
                          <div className="m-4 bg-royal bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg">
@@ -17,7 +17,7 @@ const Heads = () => {
                          </div>
                          <div className="m-4 bg-siril bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg">
                               <div className="px-4 pb-4">
-                                   <h1 className="text-white font-poppy font-semibold text-4xl">Siril Joseph</h1>
+                                   <h1 className="text-white font-poppy font-semibold text-4xl">Kenneth Rebello</h1>
                                    <h1 className="text-white font-poppy text-lg">Student Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">imdelbingeorge@gmail.com</a></h1>
