@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { FaClock } from 'react-icons/fa'
 const Home = () => {
      const targetDate = new Date("March 31, 2023").getTime();
      const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -25,8 +24,8 @@ const Home = () => {
 
      return (
           <>
-               <div className="bg-home bg-[#f8f7ff] bg-cover md:px-16">
-                    <div className="flex flex-col items-center justify-center h-[60vh] md:h-[70vh]">
+               <div className="bg-home bg-[#f8f7ff] bg-cover md:px-16"> 
+                    <div className="flex flex-col items-center justify-center h-[60vh] md:h-[70vh] sm:py-12">
                          <svg
                               id="svg-div"
                               className="w-[90%] sm:w-[50%] md:w-[35rem]"
@@ -55,12 +54,12 @@ const Home = () => {
                     <div className="bg-[#f8f7ff] flex flex-col items-center justify-center text-black md:py">
                          <h2 className="font-mono text-xl md:text-2xl text-center">The countdown cometh.</h2>
                          <h1 className="font-mono font-black text-3xl md:text-6xl py-4">{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}</h1>
-                         <a
+                         {/* <a
                               className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
                               href="home"
                          >
                               Register Now
-                         </a>
+                         </a> */}
                     </div>
                </div>
           </>

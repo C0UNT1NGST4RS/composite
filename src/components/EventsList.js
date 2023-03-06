@@ -1,10 +1,4 @@
 const EventsList = [
-    {
-        path: "web",
-        bgImg: "bg-web",
-        name: "Web Odyssey",
-        event: "Web Designing",
-    },
     { path: "code", bgImg: "bg-code", name: "Elsify{}", event: "Coding Event" },
     {
         path: "quiz",
@@ -25,6 +19,12 @@ const EventsList = [
         bgImg: "bg-inco",
         name: "Incognito",
         event: "Surprise Event",
+    },
+    {
+        path: "web",
+        bgImg: "bg-web",
+        name: "Web Odyssey",
+        event: "Web Designing",
     },
     {
         path: "man",

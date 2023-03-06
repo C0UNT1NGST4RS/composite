@@ -13,9 +13,9 @@ const Events = () => {
      };
      return (
           <>
-               <div className="bg-[#f8f7ff] px-16 pt-24 flex flex-col items-center justify-center">
+               <div className="bg-[#f8f7ff] pt-6 md:px-16 md:pt-12 flex flex-col items-center justify-center">
                     <div>
-                         <h1 class="text-center mb-4 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400"> EVENTS </span> WE CONDUCT</h1>
+                         <h1 class="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400"> EVENTS </span> WE CONDUCT</h1>
                     </div>
                     <div className="flex flex-wrap items-center justify-center">
                          {
@@ -35,20 +35,20 @@ const Events = () => {
                     </div>
                     <div id="web">
                          {selectedComponent == "web" && show == true ?
-                              <div onClick={() => { setShow(false) }} className="p-12 ">
+                              <div onClick={() => { setShow(false) }} className="px-5 py-12 md:p-12 ">
                                    <div className="font-poppy mb-2">
                                         <h1 className="text-3xl font-bold">Web Odyssey</h1>
                                         <h1 className="text-md ">Event Head Name, 92347249273</h1>
                                    </div>
-                                   <p className="text-md font-poppy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p>
-                                   <h1 className="text-xl font-poppy py-3">Rules to be followed:</h1>
-                                   <ul className="mb-8 font-poppy">
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                   <p className="text-md font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p>
+                                   <h1 className="text-xl font-poppy py-2">Rules to be followed:</h1>
+                                   <ul className="mb-8 ml-4 font-poppy">
+                                        <li>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
+                                        <li>5. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate alias voluptates </li>
                                    </ul>
                                    <a
                                         className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"

@@ -1,14 +1,14 @@
 const EventHeads = [
     {
         bgImg: "bg-siril",
-        name: "Ashwing KV",
+        name: "Ashwin KV",
         event: "Coding",
         contact: "9529395930",
         email: "dummymail@gmail.com",
     },
     {
         bgImg: "bg-ashwin",
-        name: "Ashwing KV",
+        name: "Ashwin KV",
         event: "Coding",
         contact: "9529395930",
         email: "dummymail@gmail.com",
@@ -23,35 +23,35 @@ const EventHeads = [
 
     {
         bgImg: "bg-siril",
-        name: "Ashwing KV",
+        name: "Ashwin KV",
         event: "Coding",
         contact: "9529395930",
         email: "dummymail@gmail.com",
     },
     {
         bgImg: "bg-siril",
-        name: "Ashwing KV",
+        name: "Ashwin KV",
         event: "Coding",
         contact: "9529395930",
         email: "dummymail@gmail.com",
     },
     {
         bgImg: "bg-royal",
-        name: "Ashwing KV",
+        name: "Ashwin KV",
         event: "Coding",
         contact: "9529395930",
         email: "dummymail@gmail.com",
     },
     {
         bgImg: "bg-neha",
-        name: "Ashwing KV",
+        name: "Ashwin KV",
         event: "Coding",
         contact: "9529395930",
         email: "dummymail@gmail.com",
     },
     {
         bgImg: "bg-siril",
-        name: "Ashwing KV",
+        name: "Ashwin KV",
         event: "Coding",
         contact: "9529395930",
         email: "dummymail@gmail.com",
