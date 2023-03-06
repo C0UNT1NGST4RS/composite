@@ -17,6 +17,7 @@ module.exports = {
             },
             backgroundImage: {
                 home: "url(../src/media/images/bgHome.webp)",
+                "foot-blu": "url(../src/media/images/footBlu.png)",
                 about: "linear-gradient(to bottom,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.70)),url(../src/media/images/SACAdmin.jpg)",
                 royal: "linear-gradient(to bottom,rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url(http://www.staloysius.edu.in/storage/files/faculty-images/UG-ComputerScience/Mr-Royal-Praveen-DSouza.jpg)",
                 siril: "linear-gradient(to bottom,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(../src/media/images/SirilJoseph.jpg)",
