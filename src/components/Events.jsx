@@ -112,12 +112,40 @@ const Events = () => {
                               : ("")
                          }
                     </div>
+                    <div id="code">
+                         {selectedComponent == "code" && show == true ?
+                              <div onClick={() => { setShow(true) }} className="px-5 py-20 md:px-12 md:py-24 flex flex-col items-start justify-center ">
+                                   <div className="font-poppy">
+                                        <div>
+                                             <h1 className="text-3xl font-bold pb-2">{"Elsify{}"}</h1>
+                                             <h1 className="text-md ">Ashwin K V, 9567454484</h1>
+                                             <h1 className="text-md ">Iyola Gloria Dsilva, 6362115410</h1>
+                                        </div>
+                                   </div>
+                                   {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                   <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
+                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
+                                        <li className="">A single team composed of two members from the same college is permitted to participate in the competition.</li>
+                                        <li>It is recommended that the participants possess fundamental knowledge of C, C++, and Java programming languages. </li>
+                                        <li>The judges' verdict will be conclusive in determining the victors, who will be selected based on their performance across all three rounds. </li>
+                                        <li>The winners will be chosen based on their score in all 3 rounds. </li>
+                                   </ul>
+                                   <a
+                                        className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
+                                        href="#"
+                                   >
+                                        Register Now
+                                   </a>
+                              </div>
+                              : ("")
+                         }
+                    </div>
                     <div id="man">
                          {selectedComponent == "man" && show == true ?
                               <div onClick={() => { setShow(true) }} className="px-5 py-20 md:px-12 md:py-24 flex flex-col items-start justify-center ">
                                    <div className="font-poppy">
                                         <div>
-                                             <h1 className="text-3xl font-bold pb-2">{"Elsify{}"}</h1>
+                                             <h1 className="text-3xl font-bold pb-2">IT Manager</h1>
                                              <h1 className="text-md ">Bhushan Bangera, 7204624083</h1>
                                              <h1 className="text-md ">Elkan Pais, 9483916991</h1>
                                         </div>
@@ -126,7 +154,7 @@ const Events = () => {
                                    <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                    <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
 
-                                        <li>   Only one member from each college team can participate in this event.
+                                        <li>Only one member from each college team can participate in this event.
                                         </li>
                                         <li>Students who have registered for this event are not permitted to participate in any other event.
                                         </li>
@@ -173,6 +201,128 @@ const Events = () => {
                                         <li>  No professional assistance will be entertained.
                                         </li>
                                         <li> All participants should be present at the venue at the given time and be there until the event gets over.
+                                        </li>
+                                   </ul>
+                                   <a
+                                        className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
+                                        href="#"
+                                   >
+                                        Register Now
+                                   </a>
+                              </div>
+                              : ("")
+                         }
+                    </div>
+                    <div id="inco">
+                         {selectedComponent == "inco" && show == true ?
+                              <div onClick={() => { setShow(true) }} className="px-5 py-20 md:px-12 md:py-24 flex flex-col items-start justify-center ">
+                                   <div className="font-poppy">
+                                        <div>
+                                             <h1 className="text-3xl font-bold pb-2">Incognito</h1>
+                                             <h1 className="text-md ">Deepak Amin, 8618000577</h1>
+                                             <h1 className="text-md ">Pragati Jayakumar, 7019727270</h1>
+                                        </div>
+                                   </div>
+                                   {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                   <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
+                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
+                                        <li>Each team gets 5 minutes to memorise the article.
+                                        </li>
+                                        <li>5 minutes will be given to each team to answer questions.
+                                        </li>
+                                        <li>There is no negative marking.
+                                        </li>
+                                        <li>The team can discuss the answer before answering.
+                                        </li>
+                                        <li>Use of electronic devices will lead to immediate disqualification.
+                                        </li>
+                                        <li>Judge's decision will be final.
+                                        </li>
+                                   </ul>
+                                   <a
+                                        className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
+                                        href="#"
+                                   >
+                                        Register Now
+                                   </a>
+                              </div>
+                              : ("")
+                         }
+                    </div>
+                    <div id="quiz">
+                         {selectedComponent == "quiz" && show == true ?
+                              <div onClick={() => { setShow(true) }} className="px-5 py-20 md:px-12 md:py-24 flex flex-col items-start justify-center ">
+                                   <div className="font-poppy">
+                                        <div>
+                                             <h1 className="text-3xl font-bold pb-2">Quizathon</h1>
+                                             <h1 className="text-md ">Mahima P, 8317349105</h1>
+                                             <h1 className="text-md ">Glen, 459827345</h1>
+                                        </div>
+                                   </div>
+                                   {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                   <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
+                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
+                                        <li>The players need to press the buzzer before answering a question. Answering a question without pressing the buzzer will not be considered.
+                                        </li>
+                                        <li> Once the player has pressed the buzzer and answered a question and if the answer is one of the option the player's team will get to keep answering. (NOTE: Each player would get one chance to guess an answer)
+                                        </li>
+                                        <li> If the players guess a wrong answer then the opposite team will get a chance to guess the answer.
+                                        </li>
+                                        <li> The team with the most points will win the round.
+                                        </li>
+                                        <li>Elimination will be done based on the teams which secures lowest points.
+                                        </li>
+                                   </ul>
+                                   <a
+                                        className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
+                                        href="#"
+                                   >
+                                        Register Now
+                                   </a>
+                              </div>
+                              : ("")
+                         }
+                    </div>
+                    <div id="web">
+                         {selectedComponent == "web" && show == true ?
+                              <div onClick={() => { setShow(true) }} className="px-5 py-20 md:px-12 md:py-24 flex flex-col items-start justify-center ">
+                                   <div className="font-poppy">
+                                        <div>
+                                             <h1 className="text-3xl font-bold pb-2">Web Odyssey</h1>
+                                             <h1 className="text-md ">Anvisha Gladline Dsouza, 7022308033</h1>
+                                             <h1 className="text-md ">Delbin George, 9539361202</h1>
+                                        </div>
+                                   </div>
+                                   {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                   <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
+                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
+
+
+                                        <li>Each college is allowed to have one team consisting of two participants, and both participants must be from the same college.
+                                        </li>
+                                        <li> Participants are allowed to use HTML, CSS, and JavaScript to create their website design. The use of any other languages is not permitted.
+                                        </li>
+                                        <li> The design should be visually appealing and reflect the participant's creativity and design skills.
+                                        </li>
+                                        <li> All necessary software, tools, and assets required for the competition will be provided.  Text Editors - VSCode, Sublime and Notepad++
+                                        </li>
+                                        <li>Participants must complete their website design within the given time frame, and late submissions will not be accepted.
+                                        </li>
+                                        <li> The design should be original and not infringe on any copyright laws.
+                                        </li>
+                                        <li>   The design should include all necessary elements, such as navigation, content, images, and any other features required.
+                                        </li>
+                                        <li>Participants will be judged based on creativity, design aesthetics, responsiveness, user experience, and adherence to the given theme.
+                                        </li>
+                                        <li> Electronic devices, including smartwatches, smartphones, and earpods, are not allowed in the lab.
+                                        </li>
+                                        <li> The judges' decision will be final, and no appeals will be entertained.
+                                        </li>
+                                        <li> The competition organizers reserve the right to disqualify any participant who violates the rules or engages in any unethical behavior.
+                                        </li>
+                                        <li>  Plagiarism or any form of cheating will result in disqualification.
+                                        </li>
+                                        <li> Participants cannot participate in other events if they are participating in “Web Odyssey” event.
                                         </li>
                                    </ul>
                                    <a
