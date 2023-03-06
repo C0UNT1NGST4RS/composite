@@ -1,6 +1,7 @@
 import EventsList from "./EventsList"
 import { useState } from "react";
 import { Link } from "react-scroll";
+import { Fade } from "react-awesome-reveal";
 const Events = () => {
      const [selectedComponent, setSelectedComponent] = useState(null);
      const [show, setShow] = useState(false);
@@ -14,19 +15,20 @@ const Events = () => {
           <>
                <div className="bg-[#f8f7ff] px-16 pt-24 flex flex-col items-center justify-center">
                     <div>
-                    <h1 class="text-center mb-4 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400"> EVENTS </span> WE CONDUCT</h1>
+                         <h1 class="text-center mb-4 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400"> EVENTS </span> WE CONDUCT</h1>
                     </div>
                     <div className="flex flex-wrap items-center justify-center">
                          {
                               EventsList.map((items, key) => {
                                    return (
-                                        <Link smooth={true} to={items.path} onClick={() => handleClick(items.path)} key={key} className={`${items.bgImg} bg-cover w-[16rem] h-[23rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg m-4`}>
-                                             <div className="px-4 pb-4">
-                                                  <h1 className="text-white font-poppy font-semibold text-2xl text-left">{items.name}</h1>
-                                                  <h1 className="text-white font-poppy text-lg text-left">{items.event}</h1>
-                                             </div>
-                                        </Link>
-
+                                        <Fade delay={15}>
+                                             <Link smooth={true} to={items.path} onClick={() => handleClick(items.path)} key={key} className={`${items.bgImg} bg-cover w-[16rem] h-[23rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg m-4`}>
+                                                  <div className="px-4 pb-4">
+                                                       <h1 className="text-white font-poppy font-semibold text-2xl text-left">{items.name}</h1>
+                                                       <h1 className="text-white font-poppy text-lg text-left">{items.event}</h1>
+                                                  </div>
+                                             </Link>
+                                        </Fade>
                                    )
                               })
                          }
