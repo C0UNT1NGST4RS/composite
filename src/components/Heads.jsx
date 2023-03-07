@@ -8,7 +8,7 @@ const Heads = () => {
                          <h1 class="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl">HEADS OF <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">COMPOSITE'23</span></h1>
                     </div>
                     <div className="flex items-center justify-evenly flex-wrap">
-                         <Fade delay={15} className="m-4 group bg-royal bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
+                         <Fade delay={15} className="m-4 group bg-royal bg-cover w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Royal Praveen Dsouza</h1>
@@ -17,7 +17,7 @@ const Heads = () => {
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:royal.dsouza@gmail.com">royal.dsouza@gmail.com</a></h1>
                               </div>
                          </Fade>
-                         <Fade delay={15} className="m-4 bg-praveen bg-cover group  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
+                         <Fade delay={15} className="m-4 bg-praveen bg-cover group w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Praveen N</h1>
@@ -80,7 +80,7 @@ const Heads = () => {
                               EventHeads.map((items, key) => {
                                    return (
                                         <Fade delay={15} key={key} className={`${items.bgImg} group bg-cover w-[16rem] h-[23rem] flex items-end hover:scale-[1.02] duration-700 cursor-pointer hover:shadow-lg m-4`}>
-                                             <div className="px-4 pb-4 md:group-hover:block md:hidden">
+                                             <div className="px-2 pb-2 md:group-hover:block md:hidden">
                                                   <h1 className="text-white font-poppy font-semibold text-2xl">{items.name}</h1>
                                                   <h1 className="text-white font-poppy text-lg">{items.event}</h1>
                                                   <h1 className="text-white font-poppy text-md">{items.contact}</h1>

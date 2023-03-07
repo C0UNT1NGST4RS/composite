@@ -217,7 +217,7 @@ const Events = () => {
                                                                  <div>
                                                                       <h1 className="text-3xl font-bold pb-2">Quizathon</h1>
                                                                       <h1 className="text-md ">Mahima P, 8317349105</h1>
-                                                                      <h1 className="text-md ">Glen, 459827345</h1>
+                                                                      <h1 className="text-md ">Kavya, 459827345</h1>
                                                                  </div>
                                                             </div>
                                                             {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
