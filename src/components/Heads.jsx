@@ -80,7 +80,7 @@ const Heads = () => {
                               EventHeads.map((items, key) => {
                                    return (
                                         <Fade delay={15} key={key} className={`${items.bgImg} group bg-cover w-[16rem] h-[23rem] flex items-end hover:scale-[1.02] duration-700 cursor-pointer hover:shadow-lg m-4`}>
-                                             <div className="px-8 pb-4 md:group-hover:block md:hidden">
+                                             <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                                   <h1 className="text-white font-poppy font-semibold text-2xl">{items.name}</h1>
                                                   <h1 className="text-white font-poppy text-lg">{items.event}</h1>
                                                   <h1 className="text-white font-poppy text-md">{items.contact}</h1>
