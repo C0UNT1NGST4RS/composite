@@ -9,11 +9,11 @@ const Footer = () => {
                </div>
 
                <div>
-                    <div className="">
+                    <div>
                          <h1 className="font-poppy text-white text-lg md:text-xl pt-4 md:pt-0">Locate our college</h1>
                          <iframe
                               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.537539608641!2d74.84373401480651!3d12.873118890920555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a499fbec1b5%3A0xe5c391506b7a1a96!2sSt%20Aloysius%20College%20(Autonomous)!5e0!3m2!1sen!2sin!4v1677947959640!5m2!1sen!2sin"
-                              className="w-[60vw] h-[40vh]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                              className="w-full h-[60vh] md:w-[60vw] md:h-[40vh]" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                </div>
 

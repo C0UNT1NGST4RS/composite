@@ -8,36 +8,36 @@ const Heads = () => {
                          <h1 class="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl">HEADS OF <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">COMPOSITE'23</span></h1>
                     </div>
                     <div className="flex items-center justify-evenly flex-wrap">
-                         <Fade delay={15} className="m-4 bg-royal bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
+                         <Fade delay={15} className="m-4 group bg-royal bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
-                              <div className="px-4 pb-4">
+                              <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Royal Praveen Dsouza</h1>
                                    <h1 className="text-white font-poppy text-lg">Staff Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">royal.dsouza@gmail.com</a></h1>
                               </div>
                          </Fade>
-                         <Fade delay={15} className="m-4 bg-royal bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
+                         <Fade delay={15} className="m-4 bg-praveen bg-cover group  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
-                              <div className="px-4 pb-4">
+                              <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Praveen Bayar</h1>
                                    <h1 className="text-white font-poppy text-lg">Asst  Staff Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">royal.dsouza@gmail.com</a></h1>
                               </div>
                          </Fade>
-                         <Fade delay={15} className="m-4 bg-siril bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
+                         <Fade delay={15} className="m-4 bg-kenneth bg-cover group w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
-                              <div className="px-4 pb-4">
+                              <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Kenneth Rebello</h1>
                                    <h1 className="text-white font-poppy text-lg">Student Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">imdelbingeorge@gmail.com</a></h1>
                               </div>
                          </Fade>
-                         <Fade delay={15} className="m-4 bg-neha bg-cover w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
+                         <Fade delay={15} className="m-4 bg-neha bg-cover group w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
-                              <div className="px-4 pb-4">
+                              <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Neha Ail</h1>
                                    <h1 className="text-white font-poppy text-lg">Student Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
@@ -51,18 +51,18 @@ const Heads = () => {
                          <h1 class="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl">PROGRAM <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">DRAFTING HEADS</span></h1>
                     </div>
                     <div className="flex items-center justify-center flex-wrap">
-                         <Fade delay={15} className="m-4 bg-siril bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
+                         <Fade delay={15} className="m-4 bg-siril group bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
-                              <div className="px-4 pb-4">
+                              <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Siril Joseph</h1>
                                    <h1 className="text-white font-poppy text-lg">Program Drafting Head</h1>
-                                   <h1 className="text-white font-poppy text-md">9452203271</h1>
-                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">imdelbingeorge@gmail.com</a></h1>
+                                   <h1 className="text-white font-poppy text-md">8078196920</h1>
+                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">siriljoseph02@gmail.com</a></h1>
                               </div>
                          </Fade>
-                         <Fade delay={15} className="m-4 bg-neha bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
+                         <Fade delay={15} className="m-4 bg-maya group bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
-                              <div className="px-4 pb-4">
+                              <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Ms Maya V</h1>
                                    <h1 className="text-white font-poppy text-lg">Program Drafting Head</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>

@@ -7,7 +7,7 @@ const EventHeads = [
         email: "ashwinkv.akv@gmail.com",
     },
     {
-        bgImg: "bg-ashwin",
+        bgImg: "bg-iyola",
         name: "Iyola Gloria Dsilva ",
         event: "Coding",
         contact: "6362115410",
@@ -28,6 +28,13 @@ const EventHeads = [
         email: "sonalgonsalves174@gmail.com",
     },
     {
+        bgImg: "bg-nihal",
+        name: "Nihal Amin",
+        event: "Gaming (Closed)",
+        contact: "8123942381",
+        email: "nihalamin16@gmail.com",
+    },
+    {
         bgImg: "bg-laniel",
         name: "Laniel Charles Dias",
         event: "Gaming (Open)",
@@ -42,7 +49,14 @@ const EventHeads = [
         email: "stalindsouza487@gmail.com",
     },
     {
-        bgImg: "bg-siril",
+        bgImg: "bg-jaslyn",
+        name: "Jaslyn Samantha D'Souza",
+        event: "Gaming (Open)",
+        contact: "8951647296",
+        email: "jaslyn290@gmail.com",
+    },
+    {
+        bgImg: "bg-vivian",
         name: "Vivian Dsouza",
         event: "IT Expo",
         contact: "8073425253",
@@ -63,7 +77,7 @@ const EventHeads = [
         email: "deep9845855586@gmail.com",
     },
     {
-        bgImg: "bg-siril",
+        bgImg: "bg-pragathi",
         name: "Pragati Jayakumar",
         event: "Icongnito",
         contact: "7019727270",
@@ -72,14 +86,14 @@ const EventHeads = [
     {
         bgImg: "bg-bushan",
         name: "Bhushan Bangera",
-        event: "IT Manager",
+        event: "Tech Xtreme",
         contact: "7204624083",
         email: "bhushanabangera687@gmail.com",
     },
     {
-        bgImg: "bg-neha",
+        bgImg: "bg-elkan",
         name: "Elkan Pais",
-        event: "IT Manager",
+        event: "Tech Xtreme",
         contact: "9483916991",
         email: "elkabrian162@gmail.com ",
     },
@@ -91,8 +105,8 @@ const EventHeads = [
         email: "mahimaparamashivam815@gmail.com",
     },
     {
-        bgImg: "bg-siril",
-        name: "Glen",
+        bgImg: "bg-kavya",
+        name: "Kavya",
         event: "Quiz",
         contact: "459827345",
         email: "randommail@gmail.com",

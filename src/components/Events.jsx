@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 import { Fade } from "react-awesome-reveal";
 const Events = () => {
      const [event, setEvent] = useState("");
-
      return (
           <>
                <div className="bg-[#f8f7ff] pt-6 md:px-16 md:pt-0 flex flex-col items-center justify-center">
