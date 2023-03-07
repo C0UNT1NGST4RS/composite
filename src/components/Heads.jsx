@@ -14,16 +14,16 @@ const Heads = () => {
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Royal Praveen Dsouza</h1>
                                    <h1 className="text-white font-poppy text-lg">Staff Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
-                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">royal.dsouza@gmail.com</a></h1>
+                                   <h1 className="text-white font-poppy text-md"><a href="mailto:royal.dsouza@gmail.com">royal.dsouza@gmail.com</a></h1>
                               </div>
                          </Fade>
                          <Fade delay={15} className="m-4 bg-praveen bg-cover group  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
-                                   <h1 className="text-white font-poppy font-semibold text-3xl">Mr Praveen Bayar</h1>
-                                   <h1 className="text-white font-poppy text-lg">Asst  Staff Co-Ordinator</h1>
+                                   <h1 className="text-white font-poppy font-semibold text-3xl">Mr Praveen N</h1>
+                                   <h1 className="text-white font-poppy text-lg">Asst Staff Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
-                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">royal.dsouza@gmail.com</a></h1>
+                                   <h1 className="text-white font-poppy text-md"><a href="mailto:pnbayar@gmail.com">pnbayar@gmail.com</a></h1>
                               </div>
                          </Fade>
                          <Fade delay={15} className="m-4 bg-kenneth bg-cover group w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
@@ -32,7 +32,7 @@ const Heads = () => {
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Kenneth Rebello</h1>
                                    <h1 className="text-white font-poppy text-lg">Student Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
-                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">imdelbingeorge@gmail.com</a></h1>
+                                   <h1 className="text-white font-poppy text-md"><a href="mailto:kennethrebello253@gmail.com">kennethrebello253@gmail.com</a></h1>
                               </div>
                          </Fade>
                          <Fade delay={15} className="m-4 bg-neha bg-cover group w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
@@ -41,7 +41,7 @@ const Heads = () => {
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Neha Ail</h1>
                                    <h1 className="text-white font-poppy text-lg">Student Co-Ordinator</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
-                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">imdelbingeorge@gmail.com</a></h1>
+                                   <h1 className="text-white font-poppy text-md"><a href="mailto:mail2nehaail@gmail.com">mail2nehaail@gmail.com</a></h1>
                               </div>
                          </Fade>
                     </div>
@@ -80,7 +80,7 @@ const Heads = () => {
                               EventHeads.map((items, key) => {
                                    return (
                                         <Fade delay={15} key={key} className={`${items.bgImg} group bg-cover w-[16rem] h-[23rem] flex items-end hover:scale-[1.02] duration-700 cursor-pointer hover:shadow-lg m-4`}>
-                                             <div className="px-4 pb-4 md:group-hover:block md:hidden">
+                                             <div className="px-8 pb-4 md:group-hover:block md:hidden">
                                                   <h1 className="text-white font-poppy font-semibold text-2xl">{items.name}</h1>
                                                   <h1 className="text-white font-poppy text-lg">{items.event}</h1>
                                                   <h1 className="text-white font-poppy text-md">{items.contact}</h1>

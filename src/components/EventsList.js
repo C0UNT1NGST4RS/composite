@@ -17,7 +17,7 @@ const EventsList = [
     {
         path: "man",
         bgImg: "bg-man",
-        name: "IT Manager",
+        name: "Tech Xtreme",
         event: "IT Manager Event",
     },
     {
