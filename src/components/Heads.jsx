@@ -31,16 +31,16 @@ const Heads = () => {
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Kenneth Rebello</h1>
                                    <h1 className="text-white font-poppy text-lg">Student Co-Ordinator</h1>
-                                   <h1 className="text-white font-poppy text-md">9452203271</h1>
+                                   <h1 className="text-white font-poppy text-md">8317390275</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:kennethrebello253@gmail.com">kennethrebello253@gmail.com</a></h1>
                               </div>
                          </Fade>
                          <Fade delay={15} className="m-4 bg-neha bg-cover group w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
-                                   <h1 className="text-white font-poppy font-semibold text-3xl">Neha Ail</h1>
+                                   <h1 className="text-white font-poppy font-semibold text-3xl">Neha Dinakar Ail </h1>
                                    <h1 className="text-white font-poppy text-lg">Student Co-Ordinator</h1>
-                                   <h1 className="text-white font-poppy text-md">9452203271</h1>
+                                   <h1 className="text-white font-poppy text-md">8606762515</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:mail2nehaail@gmail.com">mail2nehaail@gmail.com</a></h1>
                               </div>
                          </Fade>
@@ -74,6 +74,27 @@ const Heads = () => {
                <div className="bg-[#f8f7ff] md:px-16 py-12 md:py-24 flex flex-col items-center justify-center">
                     <div>
                          <h1 className="text-center mb-4 md:mb-8 font-poppy text-3xl md:text-5xl font-black">EVENT HEADS</h1>
+                    </div>
+                    <div className="flex flex-wrap items-center justify-center">
+                         {
+                              EventHeads.map((items, key) => {
+                                   return (
+                                        <Fade delay={15} key={key} className={`${items.bgImg} group bg-cover w-[16rem] h-[23rem] flex items-end hover:scale-[1.02] duration-700 cursor-pointer hover:shadow-lg m-4`}>
+                                             <div className="px-2 pb-2 md:group-hover:block md:hidden">
+                                                  <h1 className="text-white font-poppy font-semibold text-2xl">{items.name}</h1>
+                                                  <h1 className="text-white font-poppy text-lg">{items.event}</h1>
+                                                  <h1 className="text-white font-poppy text-md">{items.contact}</h1>
+                                                  <h1 className="text-white font-poppy text-[0.8rem]"><a href="mailto:`${items.email}`">{items.email}</a></h1>
+                                             </div>
+                                        </Fade>
+                                   )
+                              })
+                         }
+                    </div>
+               </div>
+               <div className="bg-[#f8f7ff] md:px-16 py-12 md:py-24 flex flex-col items-center justify-center">
+                    <div>
+                         <h1 className="text-center mb-4 md:mb-8 font-poppy text-3xl md:text-5xl font-black">OTHERS</h1>
                     </div>
                     <div className="flex flex-wrap items-center justify-center">
                          {

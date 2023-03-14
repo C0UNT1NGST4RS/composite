@@ -40,7 +40,7 @@ const Events = () => {
                                         <h1 className="text-md ">Frank Stalin Dsouza, 7022678809</h1>
                                    </div>
                               </div>
-                              {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                              
                               <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
                                    <li>NFS MOST WANTED : (PRE- REGISTRATION) (SOLO)  50 RS PER ENTRY.</li>
@@ -66,7 +66,7 @@ const Events = () => {
                                              <h1 className="text-md ">  Sonal Riva Gonsalves, 7204206754</h1>
                                         </div>
                                    </div>
-                                   {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                   
                                    <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                    <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                         <li>Teams must pre register before the given deadline. Spot Registration is not allowed.</li>
@@ -111,12 +111,11 @@ const Events = () => {
                                                   <h1 className="text-md ">Iyola Gloria Dsilva, 6362115410</h1>
                                              </div>
                                         </div>
-                                        {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
                                         <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                         <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                              <li className="">A single team composed of two members from the same college is permitted to participate in the competition.</li>
                                              <li>It is recommended that the participants possess fundamental knowledge of C, C++, and Java programming languages. </li>
-                                             <li>The judges' verdict will be conclusive in determining the victors, who will be selected based on their performance across all three rounds. </li>
+                                             <li>Decision of the judges will be made final.</li>
                                              <li>The winners will be chosen based on their score in all 3 rounds. </li>
                                         </ul>
                                         <a
@@ -135,7 +134,7 @@ const Events = () => {
                                                        <h1 className="text-md ">Elkan Pais, 9483916991</h1>
                                                   </div>
                                              </div>
-                                             {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                             
                                              <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                                   <li>Only one member from each college team can participate in this event</li>
@@ -158,7 +157,7 @@ const Events = () => {
                                                             <h1 className="text-md ">Lishma, 7899026237</h1>
                                                        </div>
                                                   </div>
-                                                  {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                                  
                                                   <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                                        <li>Models can be either web application, IOT, app development or any hardware related components.
@@ -185,24 +184,27 @@ const Events = () => {
                                                             <div>
                                                                  <h1 className="text-3xl font-bold pb-2">Incognito</h1>
                                                                  <h1 className="text-md ">Deepak Amin, 8618000577</h1>
-                                                                 <h1 className="text-md ">Pragati Jayakumar, 7019727270</h1>
+                                                                 <h1 className="text-md ">Pragathi Jayakar, 7019727270</h1>
                                                             </div>
                                                        </div>
-                                                       {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                                       
                                                        <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                                        <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
-                                                            <li>Each team gets 5 minutes to memorise the article.
+                                                            <li>Only team  two from each college  can participate in this event.</li>
+                                                            <li>
+                                                                 Students who have registered for this event are not permitted to participate in any other event.
                                                             </li>
-                                                            <li>5 minutes will be given to each team to answer questions.
+                                                            <li>
+                                                                 No professional aid will be accepted.
                                                             </li>
-                                                            <li>There is no negative marking.
+                                                            <li>
+                                                                 All participants are required to be present at the reporting time for each round of the event. Any delay or absence may result in disqualification from the round.
                                                             </li>
-                                                            <li>The team can discuss the answer before answering.
+                                                            <li>
+                                                                 Code of conduct must be followed.
+                                                                 Participants must behave professionally and respectfully towards each other, the event organizers, and the event venue staff. Any behavior that is deemed inappropriate or disruptive may result in expulsion from the event.
                                                             </li>
-                                                            <li>Use of electronic devices will lead to immediate disqualification.
-                                                            </li>
-                                                            <li>Judge's decision will be final.
-                                                            </li>
+                                                            <li> Decision of the judges will be made final.</li>
                                                        </ul>
                                                        <a
                                                             className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
@@ -220,18 +222,20 @@ const Events = () => {
                                                                       <h1 className="text-md ">Kavya, 459827345</h1>
                                                                  </div>
                                                             </div>
-                                                            {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                                            
                                                             <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                                             <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
-                                                                 <li>The players need to press the buzzer before answering a question. Answering a question without pressing the buzzer will not be considered.
+                                                                 <li>
+                                                                      A team of two members of same college can participate for the quizathon.
                                                                  </li>
-                                                                 <li> Once the player has pressed the buzzer and answered a question and if the answer is one of the option the player's team will get to keep answering. (NOTE: Each player would get one chance to guess an answer)
+                                                                 <li>
+                                                                      Quiz is related to general as well as technology related which includes C,C++ programming language and other technological facts.
                                                                  </li>
-                                                                 <li> If the players guess a wrong answer then the opposite team will get a chance to guess the answer.
+                                                                 <li>
+                                                                      Elimination will be done based on the teams which scores lowest points in each rounds.
                                                                  </li>
-                                                                 <li> The team with the most points will win the round.
-                                                                 </li>
-                                                                 <li>Elimination will be done based on the teams which secures lowest points.
+                                                                 <li>
+                                                                      Teams will move forward to next rounds based on the highest points secured by them in a particular round,without computing the marks of previous rounds.
                                                                  </li>
                                                             </ul>
                                                             <a
@@ -250,7 +254,7 @@ const Events = () => {
                                                                            <h1 className="text-md ">Delbin George, 9539361202</h1>
                                                                       </div>
                                                                  </div>
-                                                                 {/* <p className="text-lg font-poppy text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in fugiat debitis ducimus illo? Nemo totam iure quasi suscipit ullam molestias. Nobis reiciendis quam nam quod iusto, architecto velit nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil blanditiis quibusdam possimus, id corrupti dolor non! Sit rem laboriosam quibusdam iure corrupti? Iste quibusdam nostrum saepe expedita accusamus illum!</p> */}
+                                                                 
                                                                  <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                                                  <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                                                       <li>Each college is allowed to have one team consisting of two participants, and both participants must be from the same college.

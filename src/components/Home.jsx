@@ -65,7 +65,7 @@ const Home = () => {
                     <div id="svg-div" className="bg-[#f8f7ff] flex flex-col items-center justify-center text-black md:py">
                          <h2 className='font-mono text-xl md:text-2xl text-center'>MARCH 31st, 2023</h2>
                          <h2 className="font-mono text-xl md:text-2xl text-center">The countdown cometh.</h2>
-                         <h1 className="font-mono font-black text-3xl md:text-6xl py-4">{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}</h1>
+                         <h1 className="font-digital font-black text-5xl md:text-7xl tracking-widest py-4">{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}</h1>
                          {/* <a
                               className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
                               href="home"
