@@ -9,12 +9,11 @@
 
 @keyframes fadeUp {
     0% {
-        /* transform: translateY(300px); */
+        /* transform: translateY(50px); */
         opacity: 0;
     }
     100% {
         /* transform: translateY(0); */
         opacity: 1;
-        /* background-image: url(); */
     }
 }

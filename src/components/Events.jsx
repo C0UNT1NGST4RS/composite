@@ -26,9 +26,9 @@ const Events = () => {
                               })
                          }
                     </div>
-                    {EventsList.map(event => {
+                    {EventsList.map((event, key) => {
                          return (
-                              <div id={event.path}></div>
+                              <div key={key} id={event.path}></div>
                          )
                     })}
                     {(event == "open") ? (

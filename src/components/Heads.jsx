@@ -6,7 +6,7 @@ const Heads = () => {
           <>
                <div className="bg-[#f8f7ff] md:px-16 pt-12 md:pt-24">
                     <div>
-                         <h1 class="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl">HEADS OF <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">COMPOSITE'23</span></h1>
+                         <h1 className="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl">HEADS OF <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">COMPOSITE'23</span></h1>
                     </div>
                     <div className="flex items-center justify-evenly flex-wrap">
                          <Fade delay={15} className="m-4 group bg-royal bg-cover w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
@@ -49,7 +49,7 @@ const Heads = () => {
                </div>
                <div className="bg-[#f8f7ff] md:px-16 pt-12 md:pt-24">
                     <div>
-                         <h1 class="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl">PROGRAM <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">DRAFTING HEADS</span></h1>
+                         <h1 className="text-center mb-4 md:mb-8 text-3xl font-poppy-bold tracking-widest font-extrabold text-black md:text-5xl">PROGRAM <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">DRAFTING HEADS</span></h1>
                     </div>
                     <div className="flex items-center justify-center flex-wrap">
                          <Fade delay={15} className="m-4 bg-siril group bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
