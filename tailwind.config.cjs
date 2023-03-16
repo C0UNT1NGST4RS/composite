@@ -24,7 +24,7 @@ module.exports = {
                     "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Kenneth.jpg)",
                 siril: "linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(0, 0, 0, 0.40)),url(../src/media/images/Heads/SirilJoseph.jpg)",
                 maya: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Maya.jpg)",
-                delbin: "linear-gradient(to bottom,rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.70)),url(../src/media/images/Heads/DelbinGeorge.jpg)",
+                delbin: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/DelbinGeorge.jpg)",
                 anvisha:
                     "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Anvisha.jpg)",
                 ashwin: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/AshwinKV.jpeg)",

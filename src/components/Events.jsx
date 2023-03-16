@@ -40,7 +40,7 @@ const Events = () => {
                                         <h1 className="text-md ">Frank Stalin Dsouza, 7022678809</h1>
                                    </div>
                               </div>
-                              
+
                               <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
                                    <li>NFS MOST WANTED : (PRE- REGISTRATION) (SOLO)  50 RS PER ENTRY.</li>
@@ -52,7 +52,7 @@ const Events = () => {
                               </ul>
                               <a
                                    className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
-                                   href="#"
+                                   href="https://forms.gle/XHyd5Rd6VWKB4nkSA"
                               >
                                    Register Now
                               </a>
@@ -66,7 +66,7 @@ const Events = () => {
                                              <h1 className="text-md ">  Sonal Riva Gonsalves, 7204206754</h1>
                                         </div>
                                    </div>
-                                   
+
                                    <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                    <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                         <li>Teams must pre register before the given deadline. Spot Registration is not allowed.</li>
@@ -97,7 +97,8 @@ const Events = () => {
                                    </ul>
                                    <a
                                         className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
-                                        href="#"
+                                        href="https://forms.gle/XHyd5Rd6VWKB4nkSA
+                                        "
                                    >
                                         Register Now
                                    </a>
@@ -120,7 +121,8 @@ const Events = () => {
                                         </ul>
                                         <a
                                              className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
-                                             href="#"
+                                             href="https://forms.gle/XHyd5Rd6VWKB4nkSA
+                                             "
                                         >
                                              Register Now
                                         </a>
@@ -134,7 +136,7 @@ const Events = () => {
                                                        <h1 className="text-md ">Elkan Pais, 9483916991</h1>
                                                   </div>
                                              </div>
-                                             
+
                                              <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                                   <li>Only one member from each college team can participate in this event</li>
@@ -146,7 +148,8 @@ const Events = () => {
                                                   <li>Decision of the judges will be made final.</li>
                                              </ul>
                                              <a className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
-                                                  href="#">Register Now </a>
+                                                  href="https://forms.gle/XHyd5Rd6VWKB4nkSA
+                                                  ">Register Now </a>
                                         </div>) :
                                         (event == "expos") ? (
                                              <div id="expos" className="px-5 md:w-full py-20 md:px-12 md:py-24 flex flex-col items-start justify-center ">
@@ -157,7 +160,7 @@ const Events = () => {
                                                             <h1 className="text-md ">Lishma, 7899026237</h1>
                                                        </div>
                                                   </div>
-                                                  
+
                                                   <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                                        <li>Models can be either web application, IOT, app development or any hardware related components.
@@ -173,7 +176,8 @@ const Events = () => {
                                                   </ul>
                                                   <a
                                                        className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
-                                                       href="#"
+                                                       href="https://forms.gle/XHyd5Rd6VWKB4nkSA
+                                                       "
                                                   >
                                                        Register Now
                                                   </a>
@@ -187,7 +191,7 @@ const Events = () => {
                                                                  <h1 className="text-md ">Pragathi Jayakar, 7019727270</h1>
                                                             </div>
                                                        </div>
-                                                       
+
                                                        <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                                        <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                                             <li>Only team  two from each college  can participate in this event.</li>
@@ -208,7 +212,8 @@ const Events = () => {
                                                        </ul>
                                                        <a
                                                             className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
-                                                            href="#"
+                                                            href="https://forms.gle/XHyd5Rd6VWKB4nkSA
+                                                            "
                                                        >
                                                             Register Now
                                                        </a>
@@ -222,7 +227,7 @@ const Events = () => {
                                                                       <h1 className="text-md ">Kavya, 459827345</h1>
                                                                  </div>
                                                             </div>
-                                                            
+
                                                             <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                                             <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                                                  <li>
@@ -240,7 +245,8 @@ const Events = () => {
                                                             </ul>
                                                             <a
                                                                  className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
-                                                                 href="#"
+                                                                 href="https://forms.gle/XHyd5Rd6VWKB4nkSA
+                                                                 "
                                                             >
                                                                  Register Now
                                                             </a>
@@ -254,7 +260,7 @@ const Events = () => {
                                                                            <h1 className="text-md ">Delbin George, 9539361202</h1>
                                                                       </div>
                                                                  </div>
-                                                                 
+
                                                                  <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                                                  <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                                                       <li>Each college is allowed to have one team consisting of two participants, and both participants must be from the same college.
@@ -286,7 +292,8 @@ const Events = () => {
                                                                  </ul>
                                                                  <a
                                                                       className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
-                                                                      href="#"
+                                                                      href="https://forms.gle/XHyd5Rd6VWKB4nkSA
+                                                                      "
                                                                  >
                                                                       Register Now
                                                                  </a>
