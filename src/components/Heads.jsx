@@ -94,7 +94,7 @@ const Heads = () => {
                          }
                     </div>
                </div>
-               <div className="bg-[#f8f7ff] md:px-16 py-12 md:py-24 flex flex-col items-center justify-center">
+               <div className="bg-[#f8f7ff] md:px-16 py-12 md:pb-24 flex flex-col items-center justify-center">
                     <div>
                          <h1 className="text-center mb-4 md:mb-8 font-poppy text-3xl md:text-5xl font-black uppercase">committee heads</h1>
                     </div>
