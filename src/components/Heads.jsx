@@ -95,7 +95,7 @@ const Heads = () => {
                </div>
                <div className="bg-[#f8f7ff] md:px-16 py-12 md:py-24 flex flex-col items-center justify-center">
                     <div>
-                         <h1 className="text-center mb-4 md:mb-8 font-poppy text-3xl md:text-5xl font-black uppercase">committee head</h1>
+                         <h1 className="text-center mb-4 md:mb-8 font-poppy text-3xl md:text-5xl font-black uppercase">committee heads</h1>
                     </div>
                     <div className="flex flex-wrap items-center justify-center">
                          {
