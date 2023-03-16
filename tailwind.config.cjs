@@ -43,6 +43,28 @@ module.exports = {
                 elkan: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Elkan.jpg)",
                 kavya: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Kavya.jpg)",
                 vivian: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Vivian.png)",
+                varshit:
+                    "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/varshit.jpg)",
+                amy: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/amy.jpg)",
+                sayhan: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/sayhan.jpg)",
+                shaina: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/shaina.jpg)",
+                swasthi: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/swasthi.jpg)",
+                maithri: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/maithri.jpg)",
+                varshitha:
+                    "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/varshitha.jpg)",
+                geethika:
+                    "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/geethika.jpg)",
+                prenisha:
+                    "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/prenisha.jpg)",
+                charan: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/charan.jpg)",
+                vignesh: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/vignesh.png)",
+                robin: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/robin.jpg)",
+                brian: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/brian.jpg)",
+                shibin: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/shibin.jpg)",
+                jensen: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/jensen.jpg)",
+                rohan: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/rohan.jpg)",
+                suprath: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/suprath.jpg)",
+                vaishnavi: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/vaishnavi.jpg)",
                 pragathi:
                     "linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(0, 0, 0, 0.6)),url(../src/media/images/Heads/Pragathi.jpg)",
                 web: "linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0,1)),url(../src/media/images/Web.png)",

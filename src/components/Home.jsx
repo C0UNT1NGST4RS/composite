@@ -39,7 +39,7 @@ const Home = () => {
                          </svg>
                     </div>
 
-                    <div id="svg-div" className="bg-[#f8f7ff] flex flex-col items-center justify-center text-black">
+                    <div id="svg-div" className=" flex flex-col items-center justify-center text-black">
                          <a href='https://forms.gle/XHyd5Rd6VWKB4nkSA' className="text-md font-poppy text-white md:my-4 my-4 py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300">
                               Register Now
                          </a>
@@ -47,8 +47,29 @@ const Home = () => {
                          <h2 className="font-mono text-xl md:text-2xl text-center">The countdown cometh.</h2>
                          <h1 className="font-digital font-black text-5xl md:text-7xl tracking-widest py-4">{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}</h1>
                     </div>
-                    <div className='md:py-16 w-full flex items-center justify-center'>
+                    <div className='md:pt-8 w-full flex items-center justify-center'>
                          <iframe width="600" height="330" src="https://www.youtube.com/embed/fxxHCipqA5k?controls=0" title="Composite 2023 | Sync Into Technology | Teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    </div>
+                    <div className='flex flex-col items-center justify-center md:my-12 my-4'>
+                         <h1 className='text-2xl font-poppy mb-4'>Download the Brochure</h1>
+                         <a
+                              href='../src/media/images/SACCompositeFest23.pdf'
+                              download
+                              className="relative group overflow-hidden pl-6 h-14 flex space-x-12 items-center font-poppy bg-blue-500 rounded-md">
+                              <span className="relative uppercase text-base tracking-wide text-white">Download</span>
+                              <div aria-hidden="true" className="w-14 bg-blue-600 transition duration-300 -translate-y-7 group-hover:translate-y-7">
+                                   <div className="h-14 flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 m-auto fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                             <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                        </svg>
+                                   </div>
+                                   <div className="h-14 flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 m-auto fill-white" viewBox="0 0 20 20" fill="currentColor">
+                                             <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                        </svg>
+                                   </div>
+                              </div>
+                         </a>
                     </div>
                </div>
           </>

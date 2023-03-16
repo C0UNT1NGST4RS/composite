@@ -1,5 +1,6 @@
 import { Fade } from "react-awesome-reveal"
 import EventHeads from "./EventHeads"
+import OtherHeads from "./OtherHeads"
 const Heads = () => {
      return (
           <>
@@ -92,7 +93,28 @@ const Heads = () => {
                          }
                     </div>
                </div>
-              
+               <div className="bg-[#f8f7ff] md:px-16 py-12 md:py-24 flex flex-col items-center justify-center">
+                    <div>
+                         <h1 className="text-center mb-4 md:mb-8 font-poppy text-3xl md:text-5xl font-black uppercase">committee head</h1>
+                    </div>
+                    <div className="flex flex-wrap items-center justify-center">
+                         {
+                              OtherHeads.map((items, key) => {
+                                   return (
+                                        <Fade delay={15} key={key} className={`${items.bgImg} group bg-cover w-[16rem] h-[23rem] flex items-end hover:scale-[1.02] duration-700 cursor-pointer hover:shadow-lg m-4`}>
+                                             <div className="px-2 pb-2 md:group-hover:block md:hidden">
+                                                  <h1 className="text-white font-poppy font-semibold text-2xl">{items.name}</h1>
+                                                  <h1 className="text-white font-poppy text-lg">{items.event}</h1>
+                                                  <h1 className="text-white font-poppy text-md">{items.contact}</h1>
+                                                  <h1 className="text-white font-poppy text-[0.8rem]"><a href="mailto:`${items.email}`">{items.email}</a></h1>
+                                             </div>
+                                        </Fade>
+                                   )
+                              })
+                         }
+                    </div>
+               </div>
+
           </>
      )
 }
