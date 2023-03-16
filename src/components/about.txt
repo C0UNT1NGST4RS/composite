@@ -1,6 +1,6 @@
 about
 gallery
-committee heads
-brochure download button
+committee heads                                   done
+brochure download button                          done
 register button                                   done
 promo video embed                                 done

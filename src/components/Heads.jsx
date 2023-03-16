@@ -14,7 +14,7 @@ const Heads = () => {
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Royal Praveen Dsouza</h1>
                                    <h1 className="text-white font-poppy text-lg">Staff Co-Ordinator</h1>
-                                   <h1 className="text-white font-poppy text-md">9452203271</h1>
+                                   <h1 className="text-white font-poppy text-md">8904635906</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:royal.dsouza@gmail.com">royal.dsouza@gmail.com</a></h1>
                               </div>
                          </Fade>
@@ -23,7 +23,7 @@ const Heads = () => {
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Praveen N</h1>
                                    <h1 className="text-white font-poppy text-lg">Asst Staff Co-Ordinator</h1>
-                                   <h1 className="text-white font-poppy text-md">9452203271</h1>
+                                   <h1 className="text-white font-poppy text-md">9663561307</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:pnbayar@gmail.com">pnbayar@gmail.com</a></h1>
                               </div>
                          </Fade>
@@ -58,7 +58,7 @@ const Heads = () => {
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Mr Siril Joseph</h1>
                                    <h1 className="text-white font-poppy text-lg">Program Drafting Head</h1>
                                    <h1 className="text-white font-poppy text-md">8078196920</h1>
-                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">siriljoseph02@gmail.com</a></h1>
+                                   <h1 className="text-white font-poppy text-md"><a href="mailto:siriljoseph02@gmail.com">siriljoseph02@gmail.com</a></h1>
                               </div>
                          </Fade>
                          <Fade delay={15} className="m-4 bg-maya group bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
@@ -66,8 +66,8 @@ const Heads = () => {
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Ms Maya V</h1>
                                    <h1 className="text-white font-poppy text-lg">Program Drafting Head</h1>
-                                   <h1 className="text-white font-poppy text-md">9452203271</h1>
-                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">mayavakkadavath27@gmail.com
+                                   <h1 className="text-white font-poppy text-md">9633374308</h1>
+                                   <h1 className="text-white font-poppy text-md"><a href="mailto:mayavakkadavath27@gmail.com">mayavakkadavath27@gmail.com
                                    </a></h1>
                               </div>
                          </Fade>
