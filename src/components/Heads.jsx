@@ -67,7 +67,8 @@ const Heads = () => {
                                    <h1 className="text-white font-poppy font-semibold text-3xl">Ms Maya V</h1>
                                    <h1 className="text-white font-poppy text-lg">Program Drafting Head</h1>
                                    <h1 className="text-white font-poppy text-md">9452203271</h1>
-                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">imdelbingeorge@gmail.com</a></h1>
+                                   <h1 className="text-white font-poppy text-md"><a href="mailto:imdelbingeorge@gmail.com">mayavakkadavath27@gmail.com
+                                   </a></h1>
                               </div>
                          </Fade>
                     </div>
