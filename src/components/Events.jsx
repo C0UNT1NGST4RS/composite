@@ -40,15 +40,78 @@ const Events = () => {
                                         <h1 className="text-md ">Frank Stalin Dsouza, 7022678809</h1>
                                    </div>
                               </div>
-
-                              <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
+                              <h1 className="text-md font-poppy py-2">Open Gaming Rules:</h1>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
-                                   <li>NFS MOST WANTED : (PRE- REGISTRATION) (SOLO)  50 RS PER ENTRY.</li>
-                                   <li>ROCKET LEAGUE	: (PRE- REGISTRATION) (2 VS 2) MAX TEAMS 16 TEAMS 50RS ENTRY.</li>
-                                   <li>VALORANT TOURNAMENT : (PRE- REGISTRATION) 300RS TEAM Entry.</li>
-                                   <li>FRUIT NINJA : ( ON SPOT REGISTRATION) 10 RS PER TRY TO BEAT GET 50 BACK ON WIN.</li>
-                                   <li>CALL OF DUTY MOBILE : (PRE- REGISTRATION) 40rs solo entry.</li>
-                                   <li>SUBWAY SURFERS : ( ON SPOT REGISTRATION) 20 RS Entry Winners GET 80RS.</li>
+                                   <h1 className="text-md font-bold">
+                                        Valorant [Registration Fees : Rs. 300 (per team entry)]
+                                   </h1>
+                                   <li> Each team will consist of 3 players. The match round will be 3v3.</li>
+                                   <li> Teams must pre-register for the event.</li>
+                                   <li> Participants are allowed to bring their own Headphones, Keyboard and mouse on the day of the event. The Organizers won’t be responsible for the damage or loss of your belongings.</li>
+                                   <li> Login Accounts will be provided by the Organizers on the day of the event.</li>
+                                   <li>  Jaw-dropping cash prizes will be given at the end of the event for the top three teams</li>
+                                   <li> Note :Valorant open gaming tournament will be held on 1st April, 2023</li>
+                              </ul>
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                                   <h1 className="text-md font-bold">
+                                        NFS Most Wanted [Registration Fees : Rs. 50]
+                                   </h1>
+                                   <li>  Players can pre-register for the event.</li>
+                                   <li> The competition will be played on a solo basis.</li>
+                                   <li> Match will be set against 5 players and will be held for a duration of 10 minutes.</li>
+                                   <li> Winners will be able to compete again.</li>
+                                   <li> Exciting cash prizes will be given at the end of the round for the top two players</li>
+                              </ul>
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                                   <h1 className="text-md font-bold">
+                                        Rocket League [Registration Fees : Rs. 100 (per team entry)]
+                                   </h1>
+                                   <li>Teams can pre-register for the event.</li>
+                                   <li>Match will be set in a 2 vs 2 setting.</li>
+                                   <li> 10 minutes will be assigned to each round</li>
+                                   <li> Captivating Cash prizes will be given at the winning teams</li>
+                              </ul>
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                                   <h1 className="text-md font-bold">
+                                        Call of Duty Mobile [Registration Fees : Rs. 40]
+                                   </h1>
+                                   <li> Players can pre-register for the event.</li>
+                                   <li>  The game mode selected for the event will be Free For All</li>
+                                   <li> Match will be set against 5 players.</li>
+                                   <li> COD Mobile must be pre-installed on the player's mobile device.</li>
+                                   <li> Exhilarating Cash Prizes will be given at the end of the round for the top two players</li>
+                              </ul>
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                                   <h1 className="text-md font-bold">
+                                        Fruit Ninja [Registration Fees : Rs. 10]
+                                   </h1>
+                                   <li>On-spot registrations will be open.</li>
+                                   <li> Players will have one try to defeat the set high score.</li>
+                                   <li> Players with the highest scores at the end of the event will receive Enchanting cash prizes.</li>
+                              </ul>
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                                   <h1 className="text-md font-bold">
+                                        Flappy Bird [Registration Fees : Rs. 10]
+                                   </h1>
+                                   <li>   On-spot registrations will be open.</li>
+                                   <li>  Players will have one try to defeat the set high score.</li>
+                                   <li>  Players with the highest scores at the end of the event will receive Enchanting cash prizes.</li>
+                              </ul>
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                                   <h1 className="text-md font-bold">
+                                        Subway Surfers [Registration Fees : Rs. 10]
+                                   </h1>
+                                   <li> On-spot registrations will be open.</li>
+                                   <li> Players will have one try to defeat the set high score.</li>
+                                   <li> Players with the highest scores at the end of the event will receive  Enchanting cash prizes.</li>
+                              </ul>
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                                   <h1 className="text-md font-bold">
+                                        Stack [Registration Fees : Rs. 10]
+                                   </h1>
+                                   <li> On-spot registrations will be open.</li>
+                                   <li>  Players will have one try to defeat the set high score.</li>
+                                   <li>  Players with the highest scores at the end of the event will receive  Enchanting cash prizes</li>
                               </ul>
                               <a
                                    className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
@@ -72,7 +135,6 @@ const Events = () => {
                                         <li>Teams must pre register before the given deadline. Spot Registration is not allowed.</li>
                                         <li>Each team will consist of 3 players. The match round will be 3v3.</li>
                                         <li>Only 1 team per College is allowed.</li>
-                                        <li>A maximum of 16 teams are allowed for registrations.</li>
                                         <li>Participants must carry their ID cards mandatorily.</li>
                                         <li>The teams must be present at least 10 minutes before the tournament begins.</li>
                                         <li>Participants are allowed to bring their own Headphones, Keyboard and mouse on the day of the event.
@@ -297,8 +359,9 @@ const Events = () => {
                                                                  >
                                                                       Register Now
                                                                  </a>
-                                                            </div>) : ("")))))))}
-               </div>
+                                                            </div>) : ("")))))))
+                    }
+               </div >
           </>
      )
 }

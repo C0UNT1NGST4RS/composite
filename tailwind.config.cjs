@@ -70,7 +70,7 @@ module.exports = {
                 web: "linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0,1)),url(../src/media/images/Web.webp)",
                 code: "linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0,1)),url(../src/media/images/Coding.webp)",
                 quiz: "linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0,1)),url(../src/media/images/Quiz.webp)",
-                game: "linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0,1)),url(../src/media/images/GamingOpen.webp)",
+                game: "linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0,1)),url(../src/media/images/GamingOpen.jpg)",
                 expo: "linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0,1)),url(../src/media/images/Expo.webp)",
                 closed: "linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0,1)),url(../src/media/images/GamingClosed.webp)",
                 inco: "linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0,1)),url(../src/media/images/inco.webp)",
