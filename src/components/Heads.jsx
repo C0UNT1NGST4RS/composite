@@ -55,7 +55,7 @@ const Heads = () => {
                          <Fade delay={15} className="m-4 bg-siril group bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
-                                   <h1 className="text-white font-poppy font-semibold text-3xl">Mr Siril Joseph</h1>
+                                   <h1 className="text-white font-poppy font-semibold text-3xl">Siril Joseph</h1>
                                    <h1 className="text-white font-poppy text-lg">Program Drafting Head</h1>
                                    <h1 className="text-white font-poppy text-md">8078196920</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:siriljoseph02@gmail.com">siriljoseph02@gmail.com</a></h1>
@@ -64,7 +64,7 @@ const Heads = () => {
                          <Fade delay={15} className="m-4 bg-maya group bg-cover  w-[18rem] h-[24rem] flex items-end hover:scale-[1.02] duration-300 cursor-pointer hover:shadow-lg"
                          >
                               <div className="px-4 pb-4 md:group-hover:block md:hidden">
-                                   <h1 className="text-white font-poppy font-semibold text-3xl">Ms Maya V</h1>
+                                   <h1 className="text-white font-poppy font-semibold text-3xl">Maya V</h1>
                                    <h1 className="text-white font-poppy text-lg">Program Drafting Head</h1>
                                    <h1 className="text-white font-poppy text-md">9633374308</h1>
                                    <h1 className="text-white font-poppy text-md"><a href="mailto:mayavakkadavath27@gmail.com">mayavakkadavath27@gmail.com

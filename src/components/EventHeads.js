@@ -64,7 +64,7 @@ const EventHeads = [
     },
     {
         bgImg: "bg-lishma",
-        name: "Lishma",
+        name: "Lishma Menezes",
         event: "Exi-Bit",
         contact: "7899026237",
         email: "lishma2003@gmail.com",

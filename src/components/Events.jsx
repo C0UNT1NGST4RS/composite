@@ -176,10 +176,21 @@ const Events = () => {
                                         </div>
                                         <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                         <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
-                                             <li className="">A single team composed of two members from the same college is permitted to participate in the competition.</li>
-                                             <li>It is recommended that the participants possess fundamental knowledge of C, C++, and Java programming languages. </li>
-                                             <li>Decision of the judges will be made final.</li>
-                                             <li>The winners will be chosen based on their score in all 3 rounds. </li>
+                                             <li>
+                                                  A single team composed of two members from the same college is permitted to participate in the competition.
+                                             </li>
+                                             <li>
+                                                  It is recommended that the participants possess fundamental knowledge of C, C++, and Java programming languages.
+                                             </li>
+                                             <li>
+                                                  Coding will be done using C programming language
+                                             </li>
+                                             <li>
+                                                  Decision of the judges will be made final.
+                                             </li>
+                                             <li>
+                                                  The winners will be chosen based on their score in all 3 rounds.
+                                             </li>
                                         </ul>
                                         <a
                                              className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
@@ -219,7 +230,7 @@ const Events = () => {
                                                        <div>
                                                             <h1 className="text-3xl font-bold pb-2">Exi-Bit</h1>
                                                             <h1 className="text-md ">Vivian Dsouza, 8073425253</h1>
-                                                            <h1 className="text-md ">Lishma, 7899026237</h1>
+                                                            <h1 className="text-md ">Lishma Menezes, 7899026237</h1>
                                                        </div>
                                                   </div>
 

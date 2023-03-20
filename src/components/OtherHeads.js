@@ -4,7 +4,7 @@ const OtherHeads = [
         name: "Amy Mascarenhas",
         event: "Reception Committee Head",
         contact: "8867278757",
-        email: "varshithforreal@gmail.com",
+        email: "amymascarenhas6@gmail.com",
     },
     {
         bgImg: "bg-shaina",
