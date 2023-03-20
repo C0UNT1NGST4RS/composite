@@ -71,10 +71,10 @@ const OtherHeads = [
     },
     {
         bgImg: "bg-robin",
-        name: "Robin",
+        name: "Robin Joseph dsouza",
         event: "Arrangement Committee Head",
         contact: "9591605596",
-        email: "",
+        email: "dsouzar175@gmail.com",
     },
     {
         bgImg: "bg-vignesh",
@@ -122,8 +122,8 @@ const OtherHeads = [
         bgImg: "bg-suprath",
         name: "Suprath P S",
         event: "Graphic Designing",
-        contact: "",
-        email: "",
+        contact: "9731745319",
+        email: "suprathps@gmail.com",
     },
 ];
 
