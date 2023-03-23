@@ -153,6 +153,18 @@ const Events = () => {
                                         Registration Fee : ₹10
                                    </li>
                               </ul>
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
+                                   <h1 className="text-md font-bold">
+                                        Note
+                                   </h1>
+
+                                   <li>
+                                        Players can register for multiple games.
+                                   </li>
+                                   <li>
+                                        Players must report at the specified time slot mentioned in the WhatsApp group
+                                   </li>
+                              </ul>
                               <a
                                    className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
                                    href="https://forms.gle/RzR4xP4XYAj2ZAQS8"
