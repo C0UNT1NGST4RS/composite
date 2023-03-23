@@ -182,16 +182,19 @@ const Events = () => {
                                                   <br ></br>
                                                   Timing : 10:00 Am - 3:00 Pm
                                                   <br ></br>
-                                                  Venue : St. Aloysius College Maffei Block IT-Lab : 501</h1>
+                                                  Venue : St. Aloysius College Maffei Block IT-Lab : 501
+                                             </h1>
+
                                              <h1 className="text-md ">Joel James, 9108770492</h1>
                                              <h1 className="text-md ">  Sonal Riva Gonsalves, 7204206754</h1>
+                                             <h1 className="font-semibold">Registration fee for closed gaming is covered in Composite registration fees.
+                                             </h1>
                                         </div>
                                    </div>
 
                                    <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                    <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside normal-case">
                                         <li>Must pre register before the given deadline. Spot Registration is not allowed.</li>
-                                        <li className="font-semibold">Registration fee included in composite registration fee.</li>
                                         <li>Each team will consist of 3 players. The match round will be 3v3.</li>
                                         <li>Only 1 team per College is allowed.</li>
                                         <li>Participants must carry their ID cards mandatorily.</li>
