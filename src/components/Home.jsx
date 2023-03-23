@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import SACLogo from '../media/images/SACLogo.png'
 import festlogo from '../media/images/festlogo.png'
 
@@ -30,7 +30,7 @@ const Home = () => {
                <div className="bg-home bg-[#f8f7ff]  bg-cover md:px-16">
                     <div className="flex flex-col items-center justify-center h-[40vh] md:h-[60vh] sm:py-0">
                          <div id="svg-div" className='w-12 md:w-16 pb-4'>
-                              <img src={SACLogo} />
+                              <img  src={SACLogo} />
                          </div>
                          <div className="w-[90%] sm:w-[50%] md:w-[35rem] flex flex-col items-center justify-center">
                               {/* <svg id="svg-div" className="w-[90%] sm:w-[50%] md:w-[35rem]" viewBox="0 0 654 324" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +66,7 @@ const Home = () => {
                          <h1 className="font-digital font-black text-5xl md:text-7xl tracking-widest py-4">{countdown.days}:{countdown.hours}:{countdown.minutes}:{countdown.seconds}</h1>
                     </div>
                     <div className='md:pt-8 w-full flex items-center justify-center'>
-                         <iframe width="600" height="330" src="https://www.youtube.com/embed/fxxHCipqA5k?controls=0" title="Composite 2023 | Sync Into Technology | Teaser" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                         <iframe width="600" height="330" src="https://www.youtube.com/embed/fxxHCipqA5k?controls=0" title="Composite 2023 Sync Into Technology Teaser" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                     <div className='flex flex-col items-center justify-center md:my-12 my-4'>
                          <h1 className='text-2xl font-poppy mb-4'>Download the Brochure</h1>

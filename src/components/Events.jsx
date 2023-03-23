@@ -41,18 +41,19 @@ const Events = () => {
                                    </div>
                               </div>
                               <h1 className="text-md font-poppy py-2">Open Gaming Rules:</h1>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         Valorant [Registration Fees : Rs. 300 (per team entry)]
                                    </h1>
                                    <li> Each team will consist of 3 players. The match round will be 3v3.</li>
                                    <li> Teams must pre-register for the event.</li>
-                                   <li> Participants are allowed to bring their own Headphones, Keyboard and mouse on the day of the event. The Organizers won’t be responsible for the damage or loss of your belongings.</li>
+                                   <li> Participants are allowed to bring their own Headphones, Keyboard and mouse on the day of the event.</li>
+                                   <li>  The Organizers won't be responsible for the damage or loss of your belongings.</li>
                                    <li> Login Accounts will be provided by the Organizers on the day of the event.</li>
                                    <li>  Jaw-dropping cash prizes will be given at the end of the event for the top three teams</li>
                                    <li> Note :Valorant open gaming tournament will be held on 1st April, 2023</li>
                               </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         NFS Most Wanted [Registration Fees : Rs. 50]
                                    </h1>
@@ -62,7 +63,7 @@ const Events = () => {
                                    <li> Winners will be able to compete again.</li>
                                    <li> Exciting cash prizes will be given at the end of the round for the top two players</li>
                               </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         Rocket League [Registration Fees : Rs. 100 (per team entry)]
                                    </h1>
@@ -71,7 +72,7 @@ const Events = () => {
                                    <li> 10 minutes will be assigned to each round</li>
                                    <li> Captivating Cash prizes will be given at the winning teams</li>
                               </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         Call of Duty Mobile [Registration Fees : Rs. 40]
                                    </h1>
@@ -81,7 +82,7 @@ const Events = () => {
                                    <li> COD Mobile must be pre-installed on the player's mobile device.</li>
                                    <li> Exhilarating Cash Prizes will be given at the end of the round for the top two players</li>
                               </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         Fruit Ninja [Registration Fees : Rs. 10]
                                    </h1>
@@ -89,7 +90,7 @@ const Events = () => {
                                    <li> Players will have one try to defeat the set high score.</li>
                                    <li> Players with the highest scores at the end of the event will receive Enchanting cash prizes.</li>
                               </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         Flappy Bird [Registration Fees : Rs. 10]
                                    </h1>
@@ -97,7 +98,7 @@ const Events = () => {
                                    <li>  Players will have one try to defeat the set high score.</li>
                                    <li>  Players with the highest scores at the end of the event will receive Enchanting cash prizes.</li>
                               </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         Subway Surfers [Registration Fees : Rs. 10]
                                    </h1>
@@ -105,7 +106,7 @@ const Events = () => {
                                    <li> Players will have one try to defeat the set high score.</li>
                                    <li> Players with the highest scores at the end of the event will receive  Enchanting cash prizes.</li>
                               </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside lowercase">
+                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         Stack [Registration Fees : Rs. 10]
                                    </h1>
@@ -131,7 +132,7 @@ const Events = () => {
                                    </div>
 
                                    <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
-                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
+                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                         <li>Teams must pre register before the given deadline. Spot Registration is not allowed.</li>
                                         <li>Each team will consist of 3 players. The match round will be 3v3.</li>
                                         <li>Only 1 team per College is allowed.</li>
@@ -238,7 +239,7 @@ const Events = () => {
                                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside">
                                                        <li>Models can be either web application, IOT, app development or any hardware related components.
                                                        </li>
-                                                       <li> Maximum number of participants per team is 2.
+                                                       <li> Maximum number of participants per team is 2 or 3.
                                                        </li>
                                                        <li> All necessary equipment should be brought by the participants.
                                                        </li>
