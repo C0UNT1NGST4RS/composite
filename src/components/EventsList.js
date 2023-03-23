@@ -1,11 +1,11 @@
 const EventsList = [
-    { path: "open", bgImg: "bg-game", name: "Arcadia", event: "Open Gaming Event" },
     {
         path: "close",
         bgImg: "bg-closed",
         name: "Arcadia",
-        event: "Closed Gaming Event",
+        event: "Closed Valorant Tournament",
     },
+    { path: "open", bgImg: "bg-game", name: "Arcadia", event: "Open Gaming Event" },
     { path: "code", bgImg: "bg-code", name: "Elsify{}", event: "Coding Event" },
     { path: "expos", bgImg: "bg-expo", name: "Exi-Bit", event: "IT Expo" },
     {

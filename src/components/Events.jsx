@@ -2,6 +2,7 @@ import EventsList from "./EventsList"
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { Fade } from "react-awesome-reveal";
+import valoPoster from '../media/images/valoposter.jpg'
 const Events = () => {
      const [event, setEvent] = useState("");
      return (
@@ -41,7 +42,7 @@ const Events = () => {
                                    </div>
                               </div>
                               <h1 className="text-md font-poppy py-2">Open Gaming Rules:</h1>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
+                              <ul className="mb-2 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         Valorant [Registration Fees : Rs. 300 (per team entry)]
                                    </h1>
@@ -53,6 +54,13 @@ const Events = () => {
                                    <li>  Jaw-dropping cash prizes will be given at the end of the event for the top three teams</li>
                                    <li> Note :Valorant open gaming tournament will be held on 1st April, 2023</li>
                               </ul>
+                              <a
+                                   className="text-md font-poppy mb-4 text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
+                                   href="https://forms.gle/miiRcaHb14b3mCbu8"
+                              >
+                                   Register Now
+                              </a>
+
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         NFS Most Wanted [Registration Fees : Rs. 50]
@@ -62,6 +70,7 @@ const Events = () => {
                                    <li> Match will be set against 5 players and will be held for a duration of 10 minutes.</li>
                                    <li> Winners will be able to compete again.</li>
                                    <li> Exciting cash prizes will be given at the end of the round for the top two players</li>
+                                   <li> Tournament will be held on 31st March, 2023</li>
                               </ul>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
@@ -70,7 +79,9 @@ const Events = () => {
                                    <li>Teams can pre-register for the event.</li>
                                    <li>Match will be set in a 2 vs 2 setting.</li>
                                    <li> 10 minutes will be assigned to each round</li>
-                                   <li> Captivating Cash prizes will be given at the winning teams</li>
+                                   <li> Captivating Cash prizes will be given to the winning teams</li>
+                                   <li> Tournament will be held on 31st March, 2023</li>
+
                               </ul>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
@@ -81,6 +92,8 @@ const Events = () => {
                                    <li> Match will be set against 5 players.</li>
                                    <li> COD Mobile must be pre-installed on the player's mobile device.</li>
                                    <li> Exhilarating Cash Prizes will be given at the end of the round for the top two players</li>
+                                   <li> Tournament will be held on 31st March, 2023</li>
+
                               </ul>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
@@ -89,6 +102,8 @@ const Events = () => {
                                    <li>On-spot registrations will be open.</li>
                                    <li> Players will have one try to defeat the set high score.</li>
                                    <li> Players with the highest scores at the end of the event will receive Enchanting cash prizes.</li>
+                                   <li> Tournament will be held on 31st March, 2023</li>
+
                               </ul>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
@@ -97,6 +112,8 @@ const Events = () => {
                                    <li>   On-spot registrations will be open.</li>
                                    <li>  Players will have one try to defeat the set high score.</li>
                                    <li>  Players with the highest scores at the end of the event will receive Enchanting cash prizes.</li>
+                                   <li> Tournament will be held on 31st March, 2023</li>
+
                               </ul>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
@@ -105,6 +122,8 @@ const Events = () => {
                                    <li> On-spot registrations will be open.</li>
                                    <li> Players will have one try to defeat the set high score.</li>
                                    <li> Players with the highest scores at the end of the event will receive  Enchanting cash prizes.</li>
+                                   <li> Tournament will be held on 31st March, 2023</li>
+
                               </ul>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
@@ -113,10 +132,12 @@ const Events = () => {
                                    <li> On-spot registrations will be open.</li>
                                    <li>  Players will have one try to defeat the set high score.</li>
                                    <li>  Players with the highest scores at the end of the event will receive  Enchanting cash prizes</li>
+                                   <li> Tournament will be held on 31st March, 2023</li>
+
                               </ul>
                               <a
                                    className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
-                                   href="https://forms.gle/XHyd5Rd6VWKB4nkSA"
+                                   href="https://forms.gle/RzR4xP4XYAj2ZAQS8"
                               >
                                    Register Now
                               </a>
@@ -125,15 +146,16 @@ const Events = () => {
                               <div id="close" className="px-5 md:w-full py-20 md:px-12 md:py-24 flex flex-col items-start justify-center">
                                    <div className="font-poppy">
                                         <div>
-                                             <h1 className="text-3xl font-bold pb-2">Arcadia (Closed Gaming Event)</h1>
+                                             <h1 className="text-3xl font-bold pb-2">Arcadia (Closed Valorant Tournament)</h1>
+                                             <h1 className="text-lg font-bold">31st March, 2023</h1>
                                              <h1 className="text-md ">Joel James, 9108770492</h1>
                                              <h1 className="text-md ">  Sonal Riva Gonsalves, 7204206754</h1>
                                         </div>
                                    </div>
 
                                    <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
-                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
-                                        <li>Teams must pre register before the given deadline. Spot Registration is not allowed.</li>
+                                   <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside normal-case">
+                                        <li>Must pre register before the given deadline. Spot Registration is not allowed.</li>
                                         <li>Each team will consist of 3 players. The match round will be 3v3.</li>
                                         <li>Only 1 team per College is allowed.</li>
                                         <li>Participants must carry their ID cards mandatorily.</li>
@@ -156,7 +178,7 @@ const Events = () => {
                                         </li>
                                         <li>Teams can participate in the open gaming event after their closed Tournament ends.
                                         </li>
-                                        <li>Judges' decisions are final.</li>
+                                        <li>Organizers decisions are final.</li>
                                    </ul>
                                    <a
                                         className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
