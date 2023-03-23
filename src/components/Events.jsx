@@ -37,6 +37,10 @@ const Events = () => {
                               <div className="font-poppy">
                                    <div>
                                         <h1 className="text-3xl font-bold pb-2">Arcadia (Open Gaming Event)</h1>
+                                        <h1 className="text-lg font-bold">
+                                             Timing : 10:00 Am - 3:00 Pm
+                                             <br></br>
+                                             Venue : St. Aloysius College Maffei Block IT-Lab : 501</h1>
                                         <h1 className="text-md ">Laniel Charles Dias, 7892849393</h1>
                                         <h1 className="text-md ">Frank Stalin Dsouza, 7022678809</h1>
                                    </div>
@@ -45,6 +49,9 @@ const Events = () => {
                               <ul className="mb-2 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
                                         Valorant [Registration Fees : Rs. 300 (per team entry)]
+                                   </h1>
+                                   <h1 className="text-sm font-bold">
+                                        Date: 1st April, 2023
                                    </h1>
                                    <li> Each team will consist of 3 players. The match round will be 3v3.</li>
                                    <li> Teams must pre-register for the event.</li>
@@ -63,77 +70,88 @@ const Events = () => {
 
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
-                                        NFS Most Wanted [Registration Fees : Rs. 50]
+                                        NFS Most Wanted Rules
                                    </h1>
-                                   <li>  Players can pre-register for the event.</li>
-                                   <li> The competition will be played on a solo basis.</li>
-                                   <li> Match will be set against 5 players and will be held for a duration of 10 minutes.</li>
-                                   <li> Winners will be able to compete again.</li>
-                                   <li> Exciting cash prizes will be given at the end of the round for the top two players</li>
-                                   <li> Tournament will be held on 31st March, 2023</li>
+                                   <h1 className="text-sm font-bold">
+                                        Date: 31st March, 2023
+                                   </h1>
+                                   <li>
+                                        The race will be played on a solo basis.
+                                   </li>
+                                   <li>
+                                        Race will be set against 5 players.
+                                   </li>
+                                   <li>
+                                        Top 2 racers will get exciting cash prizes at the end of the race.
+                                   </li>
+                                   <li>
+                                        Winners will be able to compete again
+                                   </li>
+                                   <li>
+                                        Registration Fee : ₹40
+                                   </li>
                               </ul>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
-                                        Rocket League [Registration Fees : Rs. 100 (per team entry)]
+                                        Rocket League Rules
                                    </h1>
-                                   <li>Teams can pre-register for the event.</li>
-                                   <li>Match will be set in a 2 vs 2 setting.</li>
-                                   <li> 10 minutes will be assigned to each round</li>
-                                   <li> Captivating Cash prizes will be given to the winning teams</li>
-                                   <li> Tournament will be held on 31st March, 2023</li>
-
+                                   <h1 className="text-sm font-bold">
+                                        Date: 31st March, 2023
+                                   </h1>
+                                   <li>
+                                        Team size : 2 members
+                                   </li>
+                                   <li>
+                                        Highest scoring team at the end of the match will receive attractive prizes.
+                                   </li>
+                                   <li>
+                                        Registration Fee : ₹100 per team.
+                                   </li>
                               </ul>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
-                                        Call of Duty Mobile [Registration Fees : Rs. 40]
+                                        Call of Duty Mobile Rules
                                    </h1>
-                                   <li> Players can pre-register for the event.</li>
-                                   <li>  The game mode selected for the event will be Free For All</li>
-                                   <li> Match will be set against 5 players.</li>
-                                   <li> COD Mobile must be pre-installed on the player's mobile device.</li>
-                                   <li> Exhilarating Cash Prizes will be given at the end of the round for the top two players</li>
-                                   <li> Tournament will be held on 31st March, 2023</li>
-
+                                   <h1 className="text-sm font-bold">
+                                        Date: 31st March, 2023
+                                   </h1>
+                                   <li>
+                                        The game mode will be Free for all.
+                                   </li> <li>
+                                        Match will bse set up against 5 players.
+                                   </li>
+                                   <li>
+                                        Cod mobile must be pre-installed on the player's mobile device.
+                                   </li>
+                                   <li>
+                                        Amazing cash prizes will be given at the end of the round for the top two players.
+                                   </li>
+                                   <li>
+                                        Registration Fee : ₹40
+                                   </li>
                               </ul>
                               <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
-                                        Fruit Ninja [Registration Fees : Rs. 10]
+                                        Mini Games Rules
                                    </h1>
-                                   <li>On-spot registrations will be open.</li>
-                                   <li> Players will have one try to defeat the set high score.</li>
-                                   <li> Players with the highest scores at the end of the event will receive Enchanting cash prizes.</li>
-                                   <li> Tournament will be held on 31st March, 2023</li>
-
-                              </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
-                                   <h1 className="text-md font-bold">
-                                        Flappy Bird [Registration Fees : Rs. 10]
+                                   <h1 className="text-sm font-bold">
+                                        Date: 31st March, 2023
                                    </h1>
-                                   <li>   On-spot registrations will be open.</li>
-                                   <li>  Players will have one try to defeat the set high score.</li>
-                                   <li>  Players with the highest scores at the end of the event will receive Enchanting cash prizes.</li>
-                                   <li> Tournament will be held on 31st March, 2023</li>
-
-                              </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
-                                   <h1 className="text-md font-bold">
-                                        Subway Surfers [Registration Fees : Rs. 10]
-                                   </h1>
-                                   <li> On-spot registrations will be open.</li>
-                                   <li> Players will have one try to defeat the set high score.</li>
-                                   <li> Players with the highest scores at the end of the event will receive  Enchanting cash prizes.</li>
-                                   <li> Tournament will be held on 31st March, 2023</li>
-
-                              </ul>
-                              <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside capitalize">
-                                   <h1 className="text-md font-bold">
-                                        Stack [Registration Fees : Rs. 10]
-                                   </h1>
-                                   <li> On-spot registrations will be open.</li>
-                                   <li>  Players will have one try to defeat the set high score.</li>
-                                   <li>  Players with the highest scores at the end of the event will receive  Enchanting cash prizes</li>
-                                   <li> Tournament will be held on 31st March, 2023</li>
-
+                                   <li>
+                                        Mini games are Fruit Ninja, Subway Surfers, Getting over it, Flappy Bird and Stack.
+                                   </li>
+                                   <li>
+                                        Players can spot register for these games.
+                                   </li>
+                                   <li>
+                                        1 attempt per registration.
+                                   </li>
+                                   <li>
+                                        Top 2 Highest Scorers will receive amazing prizes for each game at the end of the event.
+                                   </li>
+                                   <li>
+                                        Registration Fee : ₹10
+                                   </li>
                               </ul>
                               <a
                                    className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
@@ -147,7 +165,12 @@ const Events = () => {
                                    <div className="font-poppy">
                                         <div>
                                              <h1 className="text-3xl font-bold pb-2">Arcadia (Closed Valorant Tournament)</h1>
-                                             <h1 className="text-lg font-bold">31st March, 2023</h1>
+                                             <h1 className="text-lg font-bold">
+                                                  Date:31st March, 2023
+                                                  <br ></br>
+                                                  Timing : 10:00 Am - 3:00 Pm
+                                                  <br ></br>
+                                                  Venue : St. Aloysius College Maffei Block IT-Lab : 501</h1>
                                              <h1 className="text-md ">Joel James, 9108770492</h1>
                                              <h1 className="text-md ">  Sonal Riva Gonsalves, 7204206754</h1>
                                         </div>
@@ -156,6 +179,7 @@ const Events = () => {
                                    <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                    <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside normal-case">
                                         <li>Must pre register before the given deadline. Spot Registration is not allowed.</li>
+                                        <li>Registration fee included in composite registration fee.</li>
                                         <li>Each team will consist of 3 players. The match round will be 3v3.</li>
                                         <li>Only 1 team per College is allowed.</li>
                                         <li>Participants must carry their ID cards mandatorily.</li>
