@@ -191,7 +191,7 @@ const Events = () => {
                                    <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                    <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside normal-case">
                                         <li>Must pre register before the given deadline. Spot Registration is not allowed.</li>
-                                        <li>Registration fee included in composite registration fee.</li>
+                                        <li className="font-semibold">Registration fee included in composite registration fee.</li>
                                         <li>Each team will consist of 3 players. The match round will be 3v3.</li>
                                         <li>Only 1 team per College is allowed.</li>
                                         <li>Participants must carry their ID cards mandatorily.</li>
