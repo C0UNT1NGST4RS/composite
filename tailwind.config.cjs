@@ -64,7 +64,8 @@ module.exports = {
                 robin: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/robin.webp)",
                 brian: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/brian.webp)",
                 shibin: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/shibin.webp)",
-                praneeth: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/praneeth.jpg)",
+                praneeth:
+                    "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/praneeth.webp)",
                 rohan: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/rohan.webp)",
                 suprath:
                     "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/suprath.webp)",
