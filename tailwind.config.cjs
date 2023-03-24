@@ -21,7 +21,7 @@ module.exports = {
                 praveen:
                     "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Praveen.webp)",
                 kenneth:
-                    "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Kenneth.webp)",
+                    "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Kenneth.jpg)",
                 siril: "linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(0, 0, 0, 0.40)),url(../src/media/images/Heads/SirilJoseph.webp)",
                 maya: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/Maya.webp)",
                 delbin: "linear-gradient(to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.60)),url(../src/media/images/Heads/DelbinGeorge.webp)",
