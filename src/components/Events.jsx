@@ -229,7 +229,6 @@ const Events = () => {
                                         <li>
                                              Team Size : 3 Members.
                                         </li>
-
                                         <li>
                                              Players must carry their College ID Cards.
                                         </li>
