@@ -60,6 +60,9 @@ const Events = () => {
                                         Players must carry their College ID Cards.
                                    </li>
                                    <li>
+                                        Teams must pre-register before 31st March 2023. Spot Registration is not allowed.
+                                   </li>
+                                   <li>
                                         Teams must report at least 10 minutes before the event begins.
                                    </li>
                                    <li>
@@ -226,9 +229,7 @@ const Events = () => {
                                         <li>
                                              Team Size : 3 Members.
                                         </li>
-                                        <li>
-                                             Teams must pre-register before 31st March 2023. Spot Registration is not allowed.
-                                        </li>
+
                                         <li>
                                              Players must carry their College ID Cards.
                                         </li>
