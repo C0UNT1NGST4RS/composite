@@ -105,11 +105,11 @@ const OtherHeads = [
         email: "shibinsreedhar@gmail.com",
     },
     {
-        bgImg: "bg-jensen",
-        name: "Jensen Jacob",
+        bgImg: "bg-praneeth",
+        name: "Praneeth M",
         event: "Photography & Editing",
-        contact: "6282145230",
-        email: "jensenjacobfsx@gmail.com",
+        contact: "8075493943",
+        email: "praneethm181@gmail.com",
     },
     {
         bgImg: "bg-rohan",

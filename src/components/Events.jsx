@@ -48,18 +48,47 @@ const Events = () => {
                               <h1 className="text-md font-poppy py-2">Open Gaming Rules:</h1>
                               <ul className="mb-2 ml-4 text-md font-poppy list-disc list-inside capitalize">
                                    <h1 className="text-md font-bold">
-                                        Valorant [Registration Fees : Rs. 300 (per team entry)]
+                                        Valorant Championship
                                    </h1>
                                    <h1 className="text-sm font-bold">
                                         Date: 1st April, 2023
                                    </h1>
-                                   <li> Each team will consist of 3 players. The match round will be 3v3.</li>
-                                   <li> Teams must pre-register for the event.</li>
-                                   <li> Participants are allowed to bring their own Headphones, Keyboard and mouse on the day of the event.</li>
-                                   <li>  The Organizers won't be responsible for the damage or loss of your belongings.</li>
-                                   <li> Login Accounts will be provided by the Organizers on the day of the event.</li>
-                                   <li>  Jaw-dropping cash prizes will be given at the end of the event for the top three teams</li>
-                                   <li> Note :Valorant open gaming tournament will be held on 1st April, 2023</li>
+                                   <li>
+                                        Team Size : 3 Members.
+                                   </li>
+                                   <li>
+                                        Players must carry their College ID Cards.
+                                   </li>
+                                   <li>
+                                        Teams must report at least 10 minutes before the event begins.
+                                   </li>
+                                   <li>
+                                        Login accounts will be provided by the organizers on the day of the event.
+                                   </li>
+                                   <li>
+                                        Players are allowed to bring their own headphones, keyboard and mouse on the day of the event.
+                                   </li>
+                                   <li>
+                                        Players must bring their own Headphones / earphones. It won't be provided by the organizers.
+                                   </li>
+                                   <li>
+                                        Team Captains must take screenshots of the scoreboard after their matches.
+                                   </li>
+                                   <li>
+                                        Each round will be single elimination. Only Grand Finals will be best of 3.
+                                   </li>
+                                   <li>
+                                        Use of illegal software or any forms of cheating/abusive actions will cause disqualification of the team.
+                                   </li>
+                                   <li>
+                                        Map and team sides will be decided right before the rounds begin.
+                                   </li>
+                                   <li>
+                                        Amazing cash prizes will be given at the end of the event for the top three teams.
+                                   </li>
+                                   <li>
+                                        Organizers decision will be final.
+                                   </li>
                               </ul>
                               <a
                                    className="text-md font-poppy mb-4 text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
@@ -194,30 +223,45 @@ const Events = () => {
 
                                    <h1 className="text-md font-poppy py-2">Rules to be followed:</h1>
                                    <ul className="mb-8 ml-4 text-md font-poppy list-disc list-inside normal-case">
-                                        <li>Must pre register before the given deadline. Spot Registration is not allowed.</li>
-                                        <li>Each team will consist of 3 players. The match round will be 3v3.</li>
-                                        <li>Only 1 team per College is allowed.</li>
-                                        <li>Participants must carry their ID cards mandatorily.</li>
-                                        <li>The teams must be present at least 10 minutes before the tournament begins.</li>
-                                        <li>Participants are allowed to bring their own Headphones, Keyboard and mouse on the day of the event.
+                                        <li>
+                                             Team Size : 3 Members.
                                         </li>
                                         <li>
-                                             The Organizers won't be responsible for the damage or loss of your belongings.
+                                             Teams must pre-register before 31st March 2023. Spot Registration is not allowed.
                                         </li>
-                                        <li>Login Accounts will be provided by the Organizers on the day of the event.
+                                        <li>
+                                             Players must carry their College ID Cards.
                                         </li>
-                                        <li>Cheating/Abusive actions will result in disqualification.
+                                        <li>
+                                             Teams must report at least 10 minutes before the event begins.
                                         </li>
-                                        <li>The maps will be decided on the day of the event.</li>
-                                        <li>Attackers and Defenders will be decided by coin toss.
+                                        <li>
+                                             Login accounts will be provided by the organizers on the day of the event.
                                         </li>
-                                        <li>All team captains must take note of the scoreboard after their matches
+                                        <li>
+                                             Players are allowed to bring their own headphones, keyboard and mouse on the day of the event.
                                         </li>
-                                        <li>All matches except the Grand Finals will be a Best-of-One. The Grand Finals will be played as a Best-of-Three.
+                                        <li>
+                                             Players must bring their own Headphones / earphones. It won't be provided by the organizers.
                                         </li>
-                                        <li>Teams can participate in the open gaming event after their closed Tournament ends.
+                                        <li>
+                                             Team Captains must take screenshots of the scoreboard after their matches.
                                         </li>
-                                        <li>Organizers decisions are final.</li>
+                                        <li>
+                                             Each round will be single elimination. Only Grand Finals will be best of 3.
+                                        </li>
+                                        <li>
+                                             Use of illegal software or any forms of cheating/abusive actions will cause disqualification of the team.
+                                        </li>
+                                        <li>
+                                             Map and team sides will be decided right before the rounds begin.
+                                        </li>
+                                        <li>
+                                             Amazing cash prizes will be given at the end of the event for the top three teams.
+                                        </li>
+                                        <li>
+                                             Organizers decision will be final.
+                                        </li>
                                    </ul>
                                    <a
                                         className="text-md font-poppy text-white py-2 bg-blue-500 px-6 rounded-md hover:bg-blue-700 hover:cursor-pointer duration-300"
