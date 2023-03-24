@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
 
                </footer>
-               <p className="font-poppy text-center bg-[#433ff2] text-[10px] text-white py-2">made with keyboard by <a href="https://www.delb.in/">Delbin George</a></p>
+               <p className="font-poppy text-center bg-[#433ff2] text-[10px] text-white py-2">made with keyboard by <a className="underline" href="https://www.delb.in/">Delbin George</a></p>
           </>
      )
 }
