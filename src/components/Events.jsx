@@ -63,7 +63,7 @@ const Events = () => {
                                         Teams must pre-register before 31st March 2023. Spot Registration is not allowed.
                                    </li>
                                    <li>
-                                        Teams must report at least 10 minutes before the event begins.
+                                        Teams must report at 9:00AM (Maffei Block) IT lab 501.
                                    </li>
                                    <li>
                                         Login accounts will be provided by the organizers on the day of the event.
@@ -87,7 +87,7 @@ const Events = () => {
                                         Map and team sides will be decided right before the rounds begin.
                                    </li>
                                    <li>
-                                        Amazing cash prizes will be given at the end of the event for the top three teams.
+                                        Amazing cash prizes will be given at the end of the event for the top two teams.
                                    </li>
                                    <li>
                                         Organizers decision will be final.
@@ -170,7 +170,7 @@ const Events = () => {
                                         Date: 31st March, 2023
                                    </h1>
                                    <li>
-                                        Mini games are Fruit Ninja, Subway Surfers, Getting over it, Flappy Bird and Stack.
+                                        Mini games are Fruit Ninja, Subway Surfers, Getting over it & Flappy Bird.
                                    </li>
                                    <li>
                                         Players can spot register for these games.
@@ -233,7 +233,7 @@ const Events = () => {
                                              Players must carry their College ID Cards.
                                         </li>
                                         <li>
-                                             Teams must report at least 10 minutes before the event begins.
+                                             Teams must report at 9:00AM to IT lab (Maffei Block) 501.
                                         </li>
                                         <li>
                                              Login accounts will be provided by the organizers on the day of the event.
@@ -248,7 +248,7 @@ const Events = () => {
                                              Team Captains must take screenshots of the scoreboard after their matches.
                                         </li>
                                         <li>
-                                             Each round will be single elimination. Only Grand Finals will be best of 3.
+                                             Each round will be a knockout round. Only Grand Finals will be best of 3.
                                         </li>
                                         <li>
                                              Use of illegal software or any forms of cheating/abusive actions will cause disqualification of the team.
@@ -257,7 +257,7 @@ const Events = () => {
                                              Map and team sides will be decided right before the rounds begin.
                                         </li>
                                         <li>
-                                             Amazing cash prizes will be given at the end of the event for the top three teams.
+                                             Amazing cash prizes will be given at the end of the event for the top two teams.
                                         </li>
                                         <li>
                                              Organizers decision will be final.
